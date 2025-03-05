@@ -4,11 +4,11 @@ export default defineSiteConfig({
   url: 'https://www.yuumi.link',
   favicon: "https://cdn.yuumi.link/images/settings/yuumi.svg",
   lang: 'zh-CN',
-  title: "-Aicdbarium's Blog-",
+  title: "-Yuumi's Blog-",
   subtitle: '続きを鳴らそう——',
   author: {
-    name: 'Acidbarium',
-    avatar: "https://pic.cnblogs.com/avatar/3425456/20240410182053.png",
+    name: 'Yuumi',
+    avatar: "https://cdn.yuumi.link/images/settings/favicon.png",
     status: {
       emoji: '💛',
       message: 'Looking for dawn.',
