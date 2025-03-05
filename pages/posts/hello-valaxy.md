@@ -10,8 +10,6 @@ categories:
 aplayer: true
 ---
 
-
-
 ## Valaxy
 
 Next Generation Static Blog Framework.
