@@ -9,6 +9,8 @@ on:
       - master
       - valaxy
 
+permissions:
+  contents: write
 
 jobs:
   build:
