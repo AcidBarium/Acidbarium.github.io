@@ -1,10 +1,13 @@
 ---
-title: "聊聊 Web 开发时的一些基本规范"
-date: 2025-2-19 11:43:47
-tags: [web, Git, Github]
-categories: 杂谈
-toc: true
-cover: /images/2025-2-19/format,png.png
+title: "hello valaxy"
+date: 2021-02-12 21:42:43
+updated: 2021-03-02 21:42:43
+tags:
+  - 年终总结
+  - 养猪
+categories:
+  - 云游的小日记
+aplayer: true
 ---
 
 ## Valaxy
