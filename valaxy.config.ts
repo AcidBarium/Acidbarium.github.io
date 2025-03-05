@@ -22,7 +22,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: ['Yuumi', '的', '烟', '波', '之', '路'],
+      title: ['Acidbarium', '的', '伊', '甸', '园'],
       cloud: {
         enable: true,
       },
