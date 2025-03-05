@@ -1,18 +1,17 @@
-FROM node:20-alpine as build-stage
+FROM node:16-alpine as build-stage
 
 WORKDIR /app
 RUN corepack enable
 
-COPY .npmrc package.json pnpm-lock.yaml ./
+COPY .npmrc package.json ./
 RUN --mount=type=cache,id=pnpm-store,target=/root/.pnpm-store \
-    pnpm install --frozen-lockfile
+    pnpm install
 
 COPY . .
 RUN pnpm build
 
 FROM nginx:stable-alpine as production-stage
 
-COPY nginx.conf /etc/nginx/nginx.conf
 COPY --from=build-stage /app/dist /usr/share/nginx/html
 EXPOSE 80
 
