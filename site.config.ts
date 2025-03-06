@@ -102,30 +102,30 @@ export default defineSiteConfig({
     },
   },
 
-  sponsor: {
-    enable: true,
-    title: '内个……如果可以的话……',
-    methods: [
-      {
-        name: '支付宝',
-        url: 'https://cdn.yuumi.link/images/settings/alipay.jpg',
-        color: '#00A3EE',
-        icon: 'i-ri-alipay-line',
-      },
-      {
-        name: '微信支付',
-        url: 'https://cdn.yuumi.link/images/settings/wechatpay.png',
-        color: '#2DC100',
-        icon: 'i-ri-wechat-pay-line',
-      },
-      {
-        name: 'QQ 支付',
-        url: 'https://cdn.yuumi.link/images/settings/qqpay.png',
-        color: '#12B7F5',
-        icon: 'i-ri-qq-line',
-      },
-    ],
-  },
+  // sponsor: {
+  //   enable: true,
+  //   title: '内个……如果可以的话……',
+  //   methods: [
+  //     {
+  //       name: '支付宝',
+  //       url: 'https://cdn.yuumi.link/images/settings/alipay.jpg',
+  //       color: '#00A3EE',
+  //       icon: 'i-ri-alipay-line',
+  //     },
+  //     {
+  //       name: '微信支付',
+  //       url: 'https://cdn.yuumi.link/images/settings/wechatpay.png',
+  //       color: '#2DC100',
+  //       icon: 'i-ri-wechat-pay-line',
+  //     },
+  //     {
+  //       name: 'QQ 支付',
+  //       url: 'https://cdn.yuumi.link/images/settings/qqpay.png',
+  //       color: '#12B7F5',
+  //       icon: 'i-ri-qq-line',
+  //     },
+  //   ],
+  // },
 
   comment: {
     enable: true,
