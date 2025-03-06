@@ -8,9 +8,15 @@
     /* 让内部元素更紧凑或更宽松 */
 }
 
+
+.links{
+    font-size: .8rem;
+    width: 16rem;
+}
+
 .link-url{
-    width: 350px;
-    /* 你可以调整这个值 */
+    font-size: .8rem;
+    width: 16rem;
     height: 150px;
     /* 你可以调整这个值 */
     padding: 15px;
@@ -25,8 +31,7 @@
 }
 
 .link-desc{
-    font-size: .8rem;
-    width: 16rem;
+   
     height: 20px;
     /* 你可以调整这个值 */
 }
