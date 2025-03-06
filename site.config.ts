@@ -5,7 +5,7 @@ export default defineSiteConfig({
   favicon: "https://cdn.yuumi.link/images/settings/yuumi.svg",
   lang: 'zh-CN',
   title: "-Acidbarium's Blog-",
-  subtitle: '続きを鳴らそう——',
+  subtitle: '愛あるが故に！',
   author: {
     name: 'Acidbarium',
     avatar: "https://acidbarium.github.io/img/tou.png",
