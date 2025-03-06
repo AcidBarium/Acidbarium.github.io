@@ -2,7 +2,7 @@
 .link-item {
     width: 700px;
     /* 你可以调整这个值 */
-    height: 200px;
+    height: 170px;
     /* 你可以调整这个值 */
     padding: 15px;
     /* 让内部元素更紧凑或更宽松 */
@@ -11,8 +11,15 @@
 .link-url{
     width: 350px;
     /* 你可以调整这个值 */
-    height: 174px;
+    height: 150px;
     /* 你可以调整这个值 */
     padding: 15px;
     /* 让内部元素更紧凑或更宽松 */
+}
+
+.link-info{
+    width: 250px;
+    /* 你可以调整这个值 */
+    height: 150px;
+    /* 你可以调整这个值 */
 }
