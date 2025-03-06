@@ -4,10 +4,10 @@ export default defineSiteConfig({
   url: 'https://www.yuumi.link',
   favicon: "https://cdn.yuumi.link/images/settings/yuumi.svg",
   lang: 'zh-CN',
-  title: "-Yuumi's Blog-",
+  title: "-Acidbarium's Blog-",
   subtitle: '続きを鳴らそう——',
   author: {
-    name: 'Yuumi',
+    name: 'Acidbarium',
     avatar: "public/tou.png",
     status: {
       emoji: '💛',
