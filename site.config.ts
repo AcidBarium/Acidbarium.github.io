@@ -2,7 +2,7 @@ import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
   url: 'https://www.yuumi.link',
-  favicon: "https://cdn.yuumi.link/images/settings/yuumi.svg",
+  favicon: "https://acidbarium.github.io/img/favicon_acidbarium.svg",
   lang: 'zh-CN',
   title: "-Acidbarium's Blog-",
   subtitle: '愛あるが故に！',
