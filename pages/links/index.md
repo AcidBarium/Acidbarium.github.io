@@ -10,7 +10,5 @@ aside: false
 links: /links.json
 ---
 
-<!-- <YunLinks :links="frontmatter.links" :random="frontmatter.random" /> -->
+<YunLinks :links="frontmatter.links" :random="frontmatter.random" />
 
-
-<YunLinks :links=frontmatter.links :random=frontmatter.random />
