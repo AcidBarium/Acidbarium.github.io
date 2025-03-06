@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://www.yuumi.link',
+  url: 'https://acidbarium.github.io',
   favicon: "https://acidbarium.github.io/img/favicon_acidbarium.svg",
   lang: 'zh-CN',
   title: "-Acidbarium's Blog-",
@@ -10,8 +10,8 @@ export default defineSiteConfig({
     name: 'Acidbarium',
     avatar: "https://acidbarium.github.io/img/tou.png",
     status: {
-      emoji: '💛',
-      message: 'Looking for dawn.',
+      emoji: '❤',
+      message: 'Waiting for love !',
     },
   },
   description: '',
@@ -24,19 +24,19 @@ export default defineSiteConfig({
     },
     {
       name: '网易云音乐',
-      link: 'http://music.163.com/artist?id=30377410&userid=436730182',
+      link: 'https://music.163.com/#/user/home?id=8612986818',
       icon: 'i-ri-netease-cloud-music-line',
       color: '#C10D0C',
     },
-    {
-      name: '微博',
-      link: 'https://weibo.com/u/3075122387',
-      icon: 'i-ri-weibo-line',
-      color: '#E6162D',
-    },
+    // {
+    //   name: '微博',
+    //   link: 'https://weibo.com/u/3075122387',
+    //   icon: 'i-ri-weibo-line',
+    //   color: '#E6162D',
+    // },
     {
       name: '哔哩哔哩',
-      link: 'https://space.bilibili.com/7498906',
+      link: 'https://space.bilibili.com/3494359496394887?spm_id_from=333.1007.0.0',
       icon: 'i-ri-bilibili-line',
       color: '#FF8EB3',
     },
@@ -48,7 +48,7 @@ export default defineSiteConfig({
     },
     {
       name: 'GitHub',
-      link: 'https://github.com/Yuumi0221',
+      link: 'https://github.com/AcidBarium',
       icon: 'i-ri-github-line',
       color: '#9b9b9b',
     },
