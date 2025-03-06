@@ -9,9 +9,12 @@
 }
 
 
-.links{
+.link-url{
     font-size: .8rem;
-    width: 16rem;
+    height: 150px;
+    /* 你可以调整这个值 */
+    padding: 15px;
+    /* 让内部元素更紧凑或更宽松 */
 }
 
 .link-info{
@@ -29,8 +32,7 @@
 
 .links .link-url .link-desc[data-v-64ff5004] {
     font-size: .8rem;
-    width: 16rem;
-    /* 这里改成 16rem */
+    width: 16rem; /* 这里改成 16rem */
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
