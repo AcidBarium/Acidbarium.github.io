@@ -17,7 +17,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: '云游君的小站',
+      title: '酸钡君的伊甸园',
     },
 
     pages: [
