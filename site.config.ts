@@ -1,13 +1,20 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://valaxy.site/',
+  url: 'https://www.yuumi.link',
+  favicon: "https://cdn.yuumi.link/images/settings/yuumi.svg",
   lang: 'zh-CN',
-  title: 'Valaxy Theme Yun',
+  title: "-Yuumi's Blog-",
+  subtitle: '続きを鳴らそう——',
   author: {
-    name: '云游君',
+    name: 'Yuumi',
+    avatar: "https://cdn.yuumi.link/images/settings/favicon.png",
+    status: {
+      emoji: '💛',
+      message: 'Looking for dawn.',
+    },
   },
-  description: 'Valaxy Theme Yun Preview.',
+  description: '',
   social: [
     {
       name: 'RSS',
@@ -16,105 +23,119 @@ export default defineSiteConfig({
       color: 'orange',
     },
     {
-      name: 'QQ 群 1050458482',
-      link: 'https://qm.qq.com/cgi-bin/qm/qr?k=kZJzggTTCf4SpvEQ8lXWoi5ZjhAx0ILZ&jump_from=webapi',
-      icon: 'i-ri-qq-line',
-      color: '#12B7F5',
-    },
-    {
-      name: 'GitHub',
-      link: 'https://github.com/YunYouJun',
-      icon: 'i-ri-github-line',
-      color: '#6e5494',
+      name: '网易云音乐',
+      link: 'http://music.163.com/artist?id=30377410&userid=436730182',
+      icon: 'i-ri-netease-cloud-music-line',
+      color: '#C10D0C',
     },
     {
       name: '微博',
-      link: 'https://weibo.com/jizhideyunyoujun',
+      link: 'https://weibo.com/u/3075122387',
       icon: 'i-ri-weibo-line',
       color: '#E6162D',
     },
     {
-      name: '豆瓣',
-      link: 'https://www.douban.com/people/yunyoujun/',
-      icon: 'i-ri-douban-line',
-      color: '#007722',
-    },
-    {
-      name: '网易云音乐',
-      link: 'https://music.163.com/#/user/home?id=247102977',
-      icon: 'i-ri-netease-cloud-music-line',
-      color: '#C20C0C',
-    },
-    {
-      name: '知乎',
-      link: 'https://www.zhihu.com/people/yunyoujun/',
-      icon: 'i-ri-zhihu-line',
-      color: '#0084FF',
-    },
-    {
       name: '哔哩哔哩',
-      link: 'https://space.bilibili.com/1579790',
+      link: 'https://space.bilibili.com/7498906',
       icon: 'i-ri-bilibili-line',
       color: '#FF8EB3',
     },
     {
-      name: '微信公众号',
-      link: 'https://cdn.yunyoujun.cn/img/about/white-qrcode-and-search.jpg',
-      icon: 'i-ri-wechat-2-line',
-      color: '#1AAD19',
+      name: 'Notion',
+      link: 'https://yuumis.notion.site',
+      icon: 'i-simple-icons-notion',
+      color: '#717171',
     },
     {
-      name: 'Twitter',
-      link: 'https://twitter.com/YunYouJun',
-      icon: 'i-ri-twitter-x-fill',
-      color: 'black',
-    },
-    {
-      name: 'Telegram Channel',
-      link: 'https://t.me/elpsycn',
-      icon: 'i-ri-telegram-line',
-      color: '#0088CC',
+      name: 'GitHub',
+      link: 'https://github.com/Yuumi0221',
+      icon: 'i-ri-github-line',
+      color: '#9b9b9b',
     },
     {
       name: 'E-Mail',
-      link: 'mailto:me@yunyoujun.cn',
+      link: 'mailto:yuumi0221@outlook.com',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },
     {
-      name: 'Travelling',
-      link: 'https://www.travellings.cn/go.html',
-      icon: 'i-ri-train-line',
-      color: 'var(--va-c-text)',
+      name: 'Pixiv',
+      link: 'https://www.pixiv.net/users/10168567',
+      icon: 'i-simple-icons:pixiv',
+      color: '#0096FA',
+    },
+    {
+      name: '知乎',
+      link: 'https://www.zhihu.com/people/yuumi-81',
+      icon: 'i-ri-zhihu-line',
+      color: '#0084FF',
+    },
+    {
+      name: 'Twitter',
+      link: 'https://twitter.com/Yuumi12118924',
+      icon: 'i-ri-twitter-line',
+      color: '#1da1f2',
     },
   ],
 
   search: {
-    enable: false,
+    enable: true,
+    type: 'fuse'
+  },
+
+  fuse: {
+    options: {
+      keys: ['title', 'excerpt', 'content'],
+      /**
+       * @default 0.6
+       * @see https://www.fusejs.io/api/options.html#threshold
+       * 设置匹配阈值，越低越精确
+       */
+      threshold: 0,
+      /**
+       * @default false
+       * @see https://www.fusejs.io/api/options.html#ignoreLocation
+       * 忽略位置
+       * 这对于搜索文档全文内容有用，若无需全文搜索，则无需设置此项
+       */
+      ignoreLocation: true,
+    },
   },
 
   sponsor: {
     enable: true,
-    title: '我很可爱，请给我钱！',
+    title: '内个……如果可以的话……',
     methods: [
       {
         name: '支付宝',
-        url: 'https://cdn.yunyoujun.cn/img/donate/alipay-qrcode.jpg',
+        url: 'https://cdn.yuumi.link/images/settings/alipay.jpg',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },
       {
-        name: 'QQ 支付',
-        url: 'https://cdn.yunyoujun.cn/img/donate/qqpay-qrcode.png',
-        color: '#12B7F5',
-        icon: 'i-ri-qq-line',
-      },
-      {
         name: '微信支付',
-        url: 'https://cdn.yunyoujun.cn/img/donate/wechatpay-qrcode.jpg',
+        url: 'https://cdn.yuumi.link/images/settings/wechatpay.png',
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
       },
+      {
+        name: 'QQ 支付',
+        url: 'https://cdn.yuumi.link/images/settings/qqpay.png',
+        color: '#12B7F5',
+        icon: 'i-ri-qq-line',
+      },
     ],
+  },
+
+  comment: {
+    enable: true,
+  },
+
+  mediumZoom: {
+    enable: true,
+  },
+
+  statistics: {
+    enable: true,
   },
 })
