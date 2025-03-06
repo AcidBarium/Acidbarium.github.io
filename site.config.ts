@@ -8,7 +8,7 @@ export default defineSiteConfig({
   subtitle: '続きを鳴らそう——',
   author: {
     name: 'Acidbarium',
-    avatar: "public/tou.png",
+    avatar: "https://acidbarium.github.io/img/tou.png",
     status: {
       emoji: '💛',
       message: 'Looking for dawn.',
