@@ -1,5 +1,21 @@
 [
     {
+        "url": "https://www.nicolekk.com/",
+        "avatar": "https://gentlecrimenicole.files.wordpress.com/2022/01/niiicole-1.jpg",
+        "name": "Nicole",
+        "blog": "NicoleKK",
+        "desc": "WorldObserver",
+        "color": "#697895"
+    },
+    {
+        "url": "https://billc.io/",
+        "avatar": "https://billc.oss-cn-shanghai.aliyuncs.com/img/2021-12-25-7n8Xns.jpg",
+        "name": "Bill Chen",
+        "blog": "[ Bill Chen ]",
+        "desc": "I play code and pixels.",
+        "color": "#5696aa"
+    },
+    {
         "url": "https://www.yunyoujun.cn/",
         "avatar": "https://www.yunyoujun.cn/images/avatar.jpg",
         "name": "云游君",
@@ -8,12 +24,67 @@
         "color": "#0078e7"
     },
     {
-        "url": "https://kpmark.icu/",
-        "avatar": "https://kpmark.icu/static/nav_avatar.jpg",
-        "name": "kpmark",
-        "blog": "kpmark的小站",
-        "desc": "All at sea.",
-        "color": "#0078e7"
-    }   
+        "url": "https://imbazhang.link/",
+        "avatar": "https://imbazhang.link/images/profile.png",
+        "name": "imbazhang",
+        "blog": "imbazhang",
+        "desc": "Yongxiang Zhang",
+        "color": "#66ccff"
+    },
+    {
+        "url": "https://mizunashi.me/",
+        "avatar": "https://mizunashi.me/images/header.png",
+        "name": "Mizunashi",
+        "blog": "Mizunashi",
+        "desc": "描述",
+        "color": "#cfa183"
+    },
+    {
+        "url": "https://www.jxtxzzw.com/",
+        "avatar": "https://www.jxtxzzw.com/wp-content/uploads/2021/01/27df2354d270c9951949603718221bfc.png",
+        "name": "凝神长老",
+        "blog": "凝神长老",
+        "desc": "用志不分，乃凝于神。",
+        "color": "#ff7800"
+    },
+    {
+        "url": "https://www.northarea.tech/",
+        "avatar": "https://avatars0.githubusercontent.com/u/3104820?s=460&v=4",
+        "name": "North Area",
+        "blog": "North Area",
+        "desc": "一个苦逼的日本留学生",
+        "color": "#bf5365"
+    },
+    {
+        "url": "https://www.liyhil.top/",
+        "avatar": "https://bu.dusays.com/2023/05/09/645a4b42aca68.jpg",
+        "name": "YH",
+        "blog": "白熊的神秘小窝",
+        "desc": "=羡子年少正得路,有如扶桑初日升=",
+        "color": "#4d73ab"
+    },
+    {
+        "url": "https://shenqiu.me",
+        "avatar": "https://shenqiu.me/image/avator.jpg",
+        "name": "深秋",
+        "blog": "深秋's blog",
+        "desc": "人间忽晚，山河已秋",
+        "color": "skyblue"
+    },
+    {
+        "url": "https://www.plsshenyun.top/",
+        "avatar": "https://www.plsshenyun.top/ico/ico.png",
+        "name": "望夜菌",
+        "blog": "望夜菌的小窝",
+        "desc": "change and challenge!",
+        "color": "#FF99CC"
+    },
+    {
+        "url": "https://kasuie.cc",
+        "avatar": "https://kasuie.cc/avatar.webp",
+        "name": "kasuie",
+        "blog": "KASUIEの次元",
+        "desc": "喜欢温柔的人",
+        "color": "#18c964"
+    }
 ]
-  
