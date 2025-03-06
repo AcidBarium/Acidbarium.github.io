@@ -56,11 +56,11 @@
         "color": "#18c964"
     },
     {
-        "url": "https://kpmark.icu/",
-        "avatar": "https://kpmark.icu/static/nav_avatar.jpg",
-        "name": "kpmark",
-        "blog": "kpmark的网站",
-        "desc": "人與人總是在不聞不問的日子里慢慢告別",
-        "color": "#18c964"
-    }   
+        "url": "https://yuumi.link",
+        "avatar": "https://cdn.yuumi.link/images/settings/favicon.png",
+        "name": "Yuumi",
+        "blog": "-Yuumi's Blog-",
+        "desc": "続きを鳴らそう——",
+        "color": "#D69B54"
+    } 
 ]
