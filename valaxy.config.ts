@@ -35,6 +35,13 @@ export default defineValaxyConfig<UserThemeConfig>({
       },
     ],
 
+    bg_image: {
+      enable: true,
+      url: "https://acidbarium.github.io/img/background.png",
+      dark: "https://acidbarium.github.io/img/background.png",
+      opacity: 1
+    },
+
     footer: {
       since: 2016,
       beian: {
