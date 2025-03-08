@@ -4,7 +4,7 @@ export default defineSiteConfig({
   url: 'https://acidbarium.github.io',
   favicon: "https://acidbarium.github.io/img/favicon_acidbarium.svg",
   lang: 'zh-CN',
-  title: "-Acidbarium's Blog-",
+  title: "-Acidbarium's Eden-",
   subtitle: '愛あるが故に！',
   author: {
     name: 'Acidbarium',
