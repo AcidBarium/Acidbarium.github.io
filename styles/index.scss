@@ -15,3 +15,34 @@ html.dark {
     --va-c-bg-light: rgba(0, 0, 0, 0.8);
     /* 黑色背景，80%不透明度 */
 }
+
+
+.link-url {
+    font-size: .8rem;
+    height: 120px;
+    /* 你可以调整这个值 */
+    padding: 15px;
+    /* 让内部元素更紧凑或更宽松 */
+}
+
+.link-info {
+    width: 250px;
+    /* 你可以调整这个值 */
+    height: 100px;
+    /* 你可以调整这个值 */
+}
+
+.link-desc {
+
+    height: 20px;
+    /* 你可以调整这个值 */
+}
+
+.links .link-url .link-desc[data-v-64ff5004] {
+    font-size: .8rem;
+    width: 16rem;
+    /* 这里改成 16rem */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
