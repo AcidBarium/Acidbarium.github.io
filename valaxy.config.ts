@@ -38,7 +38,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     bg_image: {
       enable: true,
       url: "https://acidbarium.github.io/img/background.png",
-      dark: "https://acidbarium.github.io/img/background_dark.png",
+      dark: "https://acidbarium.github.io/img/background_dark.jpg",
       opacity: 1
     },
 
