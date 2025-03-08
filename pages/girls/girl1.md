@@ -1,26 +1,16 @@
 ---
-title: "施工中"
-date: 2021-02-12 21:42:43
-updated: 2021-03-02 21:42:43
-tags:
-  - 年终总结
-  - 养猪
-categories:
-  - 云游的小日记
-aplayer: true
-top : 1
+title: Lovely Girls
+date: 2019-01-07 11:17:35
+updated: 2022-05-12 11:17:35
+# - name:
+#   avatar:
+#   from:
+#   url:
+#   reason:
+# https://github.com/YunYouJun/girls
+# girls: https://cdn.jsdelivr.net/gh/YunYouJun/wives@gh-pages/girls.json
+icon: i-ri-women-line
 ---
+## 正在施工
 
-## 如你所见
-
-本网站正在施工。有问题请联系：acidbarium@163.com。
-
-## Valaxy
-
-Next Generation Static Blog Framework.
-
-Write your first post!
-
-## Usage
-
-Modify `valaxy.config.ts` to custom your blog.
+施工中。。。
