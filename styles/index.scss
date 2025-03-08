@@ -1,31 +1,17 @@
-// you can custom css here
-
-
-.link-url{
-    font-size: .8rem;
-    height: 120px;
-    /* 你可以调整这个值 */
-    padding: 15px;
-    /* 让内部元素更紧凑或更宽松 */
+.grid-bg {
+    /* 在此处添加你的自定义样式 */
+    background: none !important;
+    /* 例如，移除背景网格 */
 }
 
-.link-info{
-    width: 250px;
-    /* 你可以调整这个值 */
-    height: 100px;
-    /* 你可以调整这个值 */
+:root {
+    --va-c-bg-light: rgba(255, 255, 255, 0.8);
+    /* 白色背景，80%不透明度 */
+    // --va-c-bg-dark: rgba(0, 0, 0, 0.8);
+    /* 黑色背景，80%不透明度 */
 }
 
-.link-desc{
-   
-    height: 20px;
-    /* 你可以调整这个值 */
-}
-
-.links .link-url .link-desc[data-v-64ff5004] {
-    font-size: .8rem;
-    width: 16rem; /* 这里改成 16rem */
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
+html.dark {
+    --va-c-bg-light: rgba(0, 0, 0, 0.8);
+    /* 黑色背景，80%不透明度 */
 }

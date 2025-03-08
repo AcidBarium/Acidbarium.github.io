@@ -2,11 +2,3 @@
 intro:
   desc: Valaxy Template
   hi: Hello, Valaxy!
-
-menu:
-  slides: Slides
-  categories: Categories
-  tags: Tags
-  search: Search
-  home: Home
-  archives: Archives

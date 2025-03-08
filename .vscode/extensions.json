@@ -4,7 +4,8 @@
     "antfu.unocss",
     "csstools.postcss",
     "dbaeumer.vscode-eslint",
-    "johnsoncodehk.volar",
-    "lokalise.i18n-ally"
+    "vue.volar",
+    "lokalise.i18n-ally",
+    "YunYouJun.valaxy"
   ]
 }
