@@ -18,6 +18,9 @@ export default defineValaxyConfig<UserThemeConfig>({
     banner: {
       enable: true,
       title: '酸钡君的伊甸园',
+      cloud: {
+        enable: true,
+      },
     },
 
     pages: [
