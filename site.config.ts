@@ -59,16 +59,16 @@ export default defineSiteConfig({
       color: '#8E71C1',
     },
     {
-      name: 'Pixiv',
-      link: 'https://www.pixiv.net/users/10168567',
-      icon: 'i-simple-icons:pixiv',
-      color: '#0096FA',
+      name: 'steam',
+      link: 'https://steamcommunity.com/profiles/76561199581455323/',
+      icon: 'i-cib:steam',
+      color: '#BEBEBE',
     },
     {
       name: '贴吧',
       link: 'https://tieba.baidu.com/home/main?id=tb.1.56a8f3b9.yMsRJa_limLfEhbFCimkHQ?t=1727221816&fr=index',
       icon: 'i-simple-icons:baidu',
-      color: '#0084FF',
+      color: '#6A5ACD',
     },
     // {
     //   name: 'Twitter',
