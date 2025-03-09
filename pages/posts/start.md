@@ -2,9 +2,9 @@
 title: 天梯赛-练习集 -L2-001 紧急救援， 一个不是很正常的过题方法
 date: 2025-03-05
 updated: 2025-03-05
-categories: tijie
+categories: 题解
 tags:
-  - valaxy
+  - 算法
   - 笔记
 ---
 
