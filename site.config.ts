@@ -40,12 +40,12 @@ export default defineSiteConfig({
       icon: 'i-ri-bilibili-line',
       color: '#FF8EB3',
     },
-    {
-      name: 'Notion',
-      link: 'https://yuumis.notion.site',
-      icon: 'i-simple-icons-notion',
-      color: '#717171',
-    },
+    // {
+    //   name: 'Notion',
+    //   link: 'https://yuumis.notion.site',
+    //   icon: 'i-simple-icons-notion',
+    //   color: '#717171',
+    // },
     {
       name: 'GitHub',
       link: 'https://github.com/AcidBarium',
@@ -54,7 +54,7 @@ export default defineSiteConfig({
     },
     {
       name: 'E-Mail',
-      link: 'mailto:yuumi0221@outlook.com',
+      link: 'mailto:acidbarium@gmail.com',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },
@@ -65,17 +65,17 @@ export default defineSiteConfig({
       color: '#0096FA',
     },
     {
-      name: '知乎',
-      link: 'https://www.zhihu.com/people/yuumi-81',
-      icon: 'i-ri-zhihu-line',
+      name: '贴吧',
+      link: 'https://tieba.baidu.com/home/main?id=tb.1.56a8f3b9.yMsRJa_limLfEhbFCimkHQ?t=1727221816&fr=index',
+      icon: 'arcticons:baidu-tieba',
       color: '#0084FF',
     },
-    {
-      name: 'Twitter',
-      link: 'https://twitter.com/Yuumi12118924',
-      icon: 'i-ri-twitter-line',
-      color: '#1da1f2',
-    },
+    // {
+    //   name: 'Twitter',
+    //   link: 'https://twitter.com/Yuumi12118924',
+    //   icon: 'i-ri-twitter-line',
+    //   color: '#1da1f2',
+    // },
   ],
 
   search: {
