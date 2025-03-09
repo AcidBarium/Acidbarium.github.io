@@ -103,6 +103,12 @@ projects:
         github: NAOSI-DLUT/dut-manual
         url: https://man.naosi.org/
         color: black
+      - name: blogroll
+        emoji: 🤝
+        desc: 收集大工人们的博客友链
+        github: NAOSI-DLUT/blogroll
+        url: https://blogroll.naosi.org/
+        color: pink
 
   other:
     title: 其他
