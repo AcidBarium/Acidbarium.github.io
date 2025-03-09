@@ -17,30 +17,31 @@ projects:
         color: '#4ea5f5'
         desc: 基于vsc++和easyx开发的类东方stg弹幕射击游戏
         textColor: white
-        github: https://github.com/AcidBarium/Eastern_Famous_School_Fantasyland
+        github: AcidBarium/Eastern_Famous_School_Fantasyland
         url: https://github.com/AcidBarium/Eastern_Famous_School_Fantasyland/releases
         # docs: https://www.yunyoujun.cn/air-conditioner-room/
 
-  applets:
-    title: 应用
-    emoji: 📱
-    collection:
-      - name: cook
-        emoji: 🥘
-        desc: 好的，今天我们来做菜！(可以根据所选食材筛选菜谱)
-        color: '#16a34a'
-        url: https://cook.yunyoujun.cn
+  # applets:
+  #   title: 应用
+  #   emoji: 📱
+  #   collection:
+  #     - name: cook
+  #       emoji: 🥘
+  #       desc: 好的，今天我们来做菜！(可以根据所选食材筛选菜谱)
+  #       color: '#16a34a'
+  #       url: https://cook.yunyoujun.cn
 
   tools:
     title: 工具
     emoji: 🔧
     collection:
-      - name: git-geass
-        emoji: ⚙️
-        desc: 基于 git 提供更多交互式快捷操作。
+      - name: https://github.com/AcidBarium/GeneCardsWebScraper
+        emoji: 🧬
+        desc: 自动从genecards爬出相关基因的相关信息，并且提供多种翻译方式
         color: '#f1e05a'
-        github: YunYouJun/git-geass
-        npm: git-geass  
+        github: AcidBarium/GeneCardsWebScraper
+        url: https://github.com/AcidBarium/GeneCardsWebScraper/releases
+        docs: https://www.cnblogs.com/acidbarium/p/18731876
 
   design:
     title: 设计
