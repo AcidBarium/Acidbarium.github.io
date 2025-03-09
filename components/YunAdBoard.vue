@@ -1,7 +1,7 @@
 <template>
   <YunCard>
     <a
-      href="mailto:me@yunyoujun.cn"
+      href="https://acidbarium.github.io/posts/adVguangao"
       target="_blank"
       class="ad-link"
     >
