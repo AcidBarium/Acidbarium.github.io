@@ -1,11 +1,11 @@
 ---
-title: 云游的小项目们
+title: Acidbarium的小项目
 tags:
   - 项目
 categories:
-  - 云游的小项目
-date: 2016-01-01 00:00:00
-updated: 2024-10-06 00:00:00
+  - Acidbarium的小项目
+date: 2023-09-01 00:00:00
+updated: 2025-03-09 00:00:00
 layout: projects
 projects:
   interesting:
@@ -35,7 +35,7 @@ projects:
     title: 工具
     emoji: 🔧
     collection:
-      - name: https://github.com/AcidBarium/GeneCardsWebScraper
+      - name: GeneCardsWebScraper
         emoji: 🧬
         desc: 自动从genecards爬出相关基因的相关信息，并且提供多种翻译方式
         color: '#f1e05a'
