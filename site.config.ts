@@ -65,12 +65,18 @@ export default defineSiteConfig({
       color: '#BEBEBE',
     },
     {
+      name: 'codeforces',
+      link: 'https://codeforces.com/profile/_Acid_8arium_',
+      icon: 'i-simple-icons:codeforces',
+      color: '#EEEE00',
+    },
+    {
       name: '贴吧',
       link: 'https://tieba.baidu.com/home/main?id=tb.1.56a8f3b9.yMsRJa_limLfEhbFCimkHQ?t=1727221816&fr=index',
       icon: 'i-simple-icons:baidu',
       color: '#6A5ACD',
     },
-    // {
+    // {simple-icons:codeforces
     //   name: 'Twitter',
     //   link: 'https://twitter.com/Yuumi12118924',
     //   icon: 'i-ri-twitter-line',
