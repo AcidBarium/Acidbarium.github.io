@@ -67,7 +67,7 @@ export default defineSiteConfig({
     {
       name: '贴吧',
       link: 'https://tieba.baidu.com/home/main?id=tb.1.56a8f3b9.yMsRJa_limLfEhbFCimkHQ?t=1727221816&fr=index',
-      icon: 'i-arcticons:baidu-tieba',
+      icon: 'i-simple-icons:baidu',
       color: '#0084FF',
     },
     // {
