@@ -21,12 +21,16 @@ html.dark {
     width: 15rem !important;
 }
 
-.post-tag .cursor-pointer .items-baseline .leading-4{
+// .post-tag .cursor-pointer .items-baseline .leading-4{
 
-    element.style {
-            --yun-tag-color: #708090 !important;
-            opacity: 1;
-            transform: translateZ(0px);
-        }
-    // --yun-tag-color: #708090;
+//     element.style {
+//             --yun-tag-color: #708090 !important;
+//             opacity: 1;
+//             transform: translateZ(0px);
+//         }
+//     // --yun-tag-color: #708090;
+// }
+
+.post-tag {
+    --yun-tag-color: #708090 !important;
 }
