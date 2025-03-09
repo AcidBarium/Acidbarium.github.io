@@ -166,7 +166,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Ciallo, world!" << endl;
+    cout << "ciallo world!" << endl;
     return 0;
 }
 ```  
