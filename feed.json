@@ -1,0 +1,61 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "-Acidbarium's Eden-",
+    "home_page_url": "https://acidbarium.github.io/",
+    "feed_url": "https://acidbarium.github.io/feed.json",
+    "icon": "https://acidbarium.github.io/img/tou.png",
+    "author": {
+        "name": "Acidbarium",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<h1>在 VMware 上安装 openEuler 的完整指南</h1>\n<p>本文记录了在 VMware 虚拟机中安装 openEuler 的详细步骤，方便大家快速上手。</p>\n<p>我的电脑配置和VMware版本</p>\n<br/><p>访问 <a href=\"https://acidbarium.github.io/posts/azopenEuler\" target=\"_blank\">https://acidbarium.github.io/posts/azopenEuler</a> 阅读全文。</p>",
+            "url": "https://acidbarium.github.io/posts/azopenEuler",
+            "title": "在 VMware 上安装 openEuler 的完整指南 ",
+            "date_modified": "2025-03-08T22:42:43.000Z",
+            "date_published": "2025-03-08T22:42:43.000Z",
+            "author": {
+                "name": "Acidbarium",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1><center>L2-001 紧急救援</center></h1>\n<center>代码长度限制：16 KB</center>\n<center>时间限制：200 ms </center>\n<cen<br/><p>访问 <a href=\"https://acidbarium.github.io/posts/start\" target=\"_blank\">https://acidbarium.github.io/posts/start</a> 阅读全文。</p>",
+            "url": "https://acidbarium.github.io/posts/start",
+            "title": "天梯赛-练习集 -L2-001 紧急救援， 一个不是很正常的过题方法",
+            "date_modified": "2025-03-05T00:00:00.000Z",
+            "date_published": "2025-03-05T00:00:00.000Z",
+            "author": {
+                "name": "Acidbarium",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>如你所见</h2>\n<p>本网站正在施工。有问题请联系：acidbarium@163.com。</p>\n<h2>Valaxy</h2>\n<p>Next Generation Static Blog Framework.</p>\n<p>Wri</p>\n<br/><p>访问 <a href=\"https://acidbarium.github.io/posts/hello-valaxy\" target=\"_blank\">https://acidbarium.github.io/posts/hello-valaxy</a> 阅读全文。</p>",
+            "url": "https://acidbarium.github.io/posts/hello-valaxy",
+            "title": "施工中",
+            "date_modified": "2021-02-12T21:42:43.000Z",
+            "date_published": "2021-03-02T21:42:43.000Z",
+            "author": {
+                "name": "Acidbarium",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>广告位招租</h1>\n<p>联系方式：acidbarium@163.com</p>\n<br/><p>访问 <a href=\"https://acidbarium.github.io/posts/adVguangao\" target=\"_blank\">https://acidbarium.github.io/posts/adVguangao</a> 阅读全文。</p>",
+            "url": "https://acidbarium.github.io/posts/adVguangao",
+            "title": "广告位招租",
+            "date_modified": "1900-02-28T00:00:00.000Z",
+            "date_published": "1900-02-28T00:00:00.000Z",
+            "author": {
+                "name": "Acidbarium",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}

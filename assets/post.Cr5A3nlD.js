@@ -1,0 +1,1 @@
+import{o as i}from"./app.OEqxyOgg.js";import{f as t}from"./framework.DKdUf2Ot.js";function l(o){if(!o)return{color:"",icon:"",styles:void 0};const r=i();o in r.value.types||(o="link");const s=r.value.types[o].color,n=r.value.types[o].icon,e=t(()=>o?{"--card-c-primary":s}:void 0);return{color:s,icon:n,styles:e}}export{l as u};
