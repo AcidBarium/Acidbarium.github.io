@@ -61,7 +61,7 @@ export default defineSiteConfig({
     {
       name: 'steam',
       link: 'https://steamcommunity.com/profiles/76561199581455323/',
-      icon: 'i-cib:steam',
+      icon: 'i-mdi:steam',
       color: '#BEBEBE',
     },
     {
