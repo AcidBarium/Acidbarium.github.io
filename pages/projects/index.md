@@ -47,15 +47,15 @@ projects:
     title: 设计
     emoji: 🎨
     collection:
-      - name: hexo-theme-yun
-        desc: 我的博客主题，也就是 yunyoujun.cn 你所看到的样式和各类功能，它本质是被抽象可复用的。
+      - name: Codeforces_webpage_imitation
+        desc: 仿照codeforces官网制作的html和相应的css
         color: '#0078E7'
-        github: YunYouJun/hexo-theme-yun
-        emoji: ☁️
-        url: https://www.yunyoujun.cn
-        docs: https://yun.yunyoujun.cn
+        github: AcidBarium/Cognitive_training_Codeforces_webpage_imitation
+        emoji: 🎈
+        # url: https://www.yunyoujun.cn
+        # docs: https://yun.yunyoujun.cn
         # 转为 valaxy-theme-yun
-        status: maintained
+        # status: maintained
 
   # # 插件
   # plugins:
