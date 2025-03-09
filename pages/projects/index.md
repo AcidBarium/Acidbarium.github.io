@@ -86,37 +86,40 @@ projects:
   #       url: https://yunyoujun.github.io/gaussian-blur/
   #       docs: https://yunyoujun.github.io/gaussian-blur/
 
-  # open_source:
-  #   title: 参与
-  #   emoji: 👥
-  #   collection:
-  #     - name: element-plus
-  #       emoji: ➕
-  #       desc: Vue 3 最流行的组件库之一，Core Team Member，主要负责样式系统、文档、BUG 修复，以及周边项目模板示例的开发。
-  #       github: element-plus/element-plus
-  #       docs: https://element-plus.org/
-  #       color: '#409eff'
-  #       textColor: white
-  #     - name: 其他开源项目
-  #       emoji: 🏠
-  #       desc: 当然目前我也为其他社区开源项目贡献过代码，也许你还可以在 vitesse 等其他项目中看到我的身影。
-  #       github: YunYouJun
-  #       color: black
+  open_source:
+    title: 参与（暴论）
+    emoji: 👥
+    collection:
+      - name: DLUT_SE_Courses
+        emoji: 📖
+        desc: 大工开区的资料（之前往里面扔过一些东西）现在好像迁到大工云盘了。
+        github: NAOSI-DLUT/DLUT_SE_Courses/tree/master
+        url: http://pan.dlut.edu.cn/disk#groups%2Fjoined%2FNAOSI%2Ffiles
+        color: '#409eff'
+        textColor: white
+      - name: DUTManual
+        emoji: 🏠
+        desc: 大工人的一站式生存指南
+        github: NAOSI-DLUT/dut-manual
+        url: https://man.naosi.org/
+        color: black
 
-  # other:
-  #   title: 其他
-  #   emoji: 📁
-  #   collection:
-  #     - name: yun
-  #       emoji: ☁️
-  #       desc: 小云设定资源大公开
-  #     - name: yunyoujun.github.io
-  #       emoji: 📖
-  #       desc: 我的博客
-  #       url: https://www.yunyoujun.cn
-  #     - name: YunYouJun
-  #       emoji: ☁️
-  #       desc: 哼哼，还有很多下次再整理！<br/> <del>我已经一滴也没有了。</del>
+  other:
+    title: 其他
+    emoji: 📁
+    collection:
+      - name: Blog
+        emoji: 🔗
+        desc: 我的另一处小博客
+        url: https://www.cnblogs.com/acidbarium
+      - name: Acidbarium.github.io
+        emoji: 🔖
+        desc: 我的博客
+        url: https://acidbarium.github.io/
+        github: AcidBarium/Acidbarium.github.io 
+      # - name: YunYouJun
+      #   emoji: ☁️
+      #   desc: 哼哼，还有很多下次再整理！<br/> <del>我已经一滴也没有了。</del>
 ---
 
 <!-- more -->
