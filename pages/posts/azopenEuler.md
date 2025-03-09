@@ -13,17 +13,27 @@ aplayer: true
 
 # 在 VMware 上安装 openEuler 的完整指南  
 
-本文记录了在 VMware 虚拟机中安装 openEuler 的详细步骤，方便大家快速上手。  
+本文记录了在 VMware 虚拟机中安装 openEuler 的详细步骤，方便大家快速上手。 
+
+我的电脑配置和VMware版本如下：
+
+![alt text](https://acidbarium.github.io/openEulerImg/bb1.png)
+
+![alt text](https://acidbarium.github.io/openEulerImg/bb2.png)
 
 ---
 
 ## 下载 openEuler  
 
-1. 访问 [Academic Computer Club](https://mirror.accum.se/mirror/openeuler.org/openEuler-22.03-LTS-SP1/ISO/x86_64/)，下载 openEuler 22.03 LTS-SP1 ISO 文件，如下图所示：  
+### 1.访问下载网站
+
+访问 [Academic Computer Club](https://mirror.accum.se/mirror/openeuler.org/openEuler-22.03-LTS-SP1/ISO/x86_64/)，下载 openEuler 22.03 LTS-SP1 ISO 文件，如下图所示：  
 
    ![下载界面](https://acidbarium.github.io/openEulerImg/az1.png)  
 
-2. 由于镜像站速度较快，下载过程十分流畅 (╹ڡ╹ )。  
+### 2.选择合适的版本下载 
+
+由于镜像站速度较快，下载过程十分流畅 (╹ڡ╹ )。  
 
    ![下载速度](https://acidbarium.github.io/openEulerImg/az3.png)  
 
@@ -54,31 +64,35 @@ aplayer: true
 
    ![命名虚拟机](https://acidbarium.github.io/openEulerImg/az8.png)  
 
-7. 为虚拟机分配 **32GB** 磁盘空间，并选择 **将磁盘存储为单个文件** 以提高性能。  
+### 2. 设置虚拟机
+
+1. 为虚拟机分配 **32GB** 磁盘空间，并选择 **将磁盘存储为单个文件** 以提高性能。  
 
    ![磁盘分配](https://acidbarium.github.io/openEulerImg/az9.png)  
 
-8. 进入 **自定义硬件** 选项。  
+2. 进入 **自定义硬件** 选项。  
 
    ![自定义硬件](https://acidbarium.github.io/openEulerImg/az10.png)  
 
-9. 在 **新 CD/DVD（IDE）** 选项中，选择刚刚下载的 openEuler ISO 镜像（文件名应为 `openEuler-22.03-LTS-SP1-x86_64-dvd`）。  
+3. 在 **新 CD/DVD（IDE）** 选项中，选择刚刚下载的 openEuler ISO 镜像（文件名应为 `openEuler-22.03-LTS-SP1-x86_64-dvd`）。  
    
    **⚠ 注意**：截图中截错了，截成 Ubuntu 了，正确的选择应是 openEuler。（当然我觉得ubuntu也很好
 
    ![选择 ISO 文件](https://acidbarium.github.io/openEulerImg/az11.png)  
 
-10. 分配 **2GB 内存** 以确保流畅运行。  
+4. 分配 **2GB 内存** 以确保流畅运行。  
 
     ![分配内存](https://acidbarium.github.io/openEulerImg/az12.png)  
 
-11. 设置 **2 个 CPU 内核**，然后点击 **完成**。  
+5. 设置 **2 个 CPU 内核**，然后点击 **完成**。  
 
     ![分配 CPU](https://acidbarium.github.io/openEulerImg/az13.png)  
 
 ---
 
 ## 启动 openEuler 并完成安装  
+
+### 1. 配置openEuler
 
 1. 选择刚刚创建的虚拟机，并点击 **开启**。  
 
@@ -100,15 +114,17 @@ aplayer: true
 
    ![启用网络](https://acidbarium.github.io/openEulerImg/kj5.png)  
 
-6. **设置 root 用户密码**（请记住您的密码，安装完成后需要用到）。  
+### 2. 设置虚拟机用户
+
+1. **设置 root 用户密码**（请记住您的密码，安装完成后需要用到）。  
 
    ![设置 root 密码](https://acidbarium.github.io/openEulerImg/kj6.png)  
 
-7. **创建一个新用户**（例如 `Acidbarium`），作为日常操作账号。  
+2. **创建一个新用户**（例如 `Acidbarium`），作为日常操作账号。  
 
    ![创建用户](https://acidbarium.github.io/openEulerImg/kj7.png)  
 
-8. 安装完成后，**重启系统**，进入 openEuler。  
+3. 安装完成后，**重启系统**，进入 openEuler。  
 
    ![完成安装](https://acidbarium.github.io/openEulerImg/kj8.png)  
 
