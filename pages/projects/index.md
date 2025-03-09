@@ -112,9 +112,10 @@ projects:
         emoji: 🔗
         desc: 我的另一处小博客
         url: https://www.cnblogs.com/acidbarium
+        github: AcidBarium/Acidbarium.github.io 
       - name: Acidbarium.github.io
         emoji: 🔖
-        desc: 我的博客
+        desc: 我的小网站
         url: https://acidbarium.github.io/
         github: AcidBarium/Acidbarium.github.io 
       # - name: YunYouJun
