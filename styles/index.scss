@@ -22,5 +22,11 @@ html.dark {
 }
 
 .post-tag .cursor-pointer .items-baseline .leading-4{
-    --yun-tag-color: #708090;
+
+    element.style {
+            --yun-tag-color: #708090 !important;
+            opacity: 1;
+            transform: translateZ(0px);
+        }
+    // --yun-tag-color: #708090;
 }
