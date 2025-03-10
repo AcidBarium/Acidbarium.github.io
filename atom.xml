@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://acidbarium.github.io/</id>
+    <title>-Acidbarium's Eden-</title>
+    <updated>2025-03-10T10:08:38.294Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>Acidbarium</name>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://acidbarium.github.io/"/>
+    <link rel="self" href="https://acidbarium.github.io/atom.xml"/>
+    <logo>https://acidbarium.github.io/img/tou.png</logo>
+    <icon>https://acidbarium.github.io/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2025 © Acidbarium</rights>
+    <entry>
+        <title type="html"><![CDATA[在 VMware 上安装 openEuler 的完整指南 ]]></title>
+        <id>https://acidbarium.github.io/posts/azopenEuler</id>
+        <link href="https://acidbarium.github.io/posts/azopenEuler"/>
+        <updated>2025-03-08T22:42:43.000Z</updated>
+        <content type="html"><![CDATA[<h1>在 VMware 上安装 openEuler 的完整指南</h1>
+<p>本文记录了在 VMware 虚拟机中安装 openEuler 的详细步骤，方便大家快速上手。</p>
+<p>我的电脑配置和VMware版本</p>
+<br/><p>访问 <a href="https://acidbarium.github.io/posts/azopenEuler" target="_blank">https://acidbarium.github.io/posts/azopenEuler</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-08T22:42:43.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[L2-002 链表去重]]></title>
+        <id>https://acidbarium.github.io/posts/LinkOutDouble</id>
+        <link href="https://acidbarium.github.io/posts/LinkOutDouble"/>
+        <updated>2025-03-05T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1><center>L2-002 链表去重</center></h1>
+<center>代码长度限制：16 KB</center>
+<center>时间限制：400 ms </center>
+<cente<br/><p>访问 <a href="https://acidbarium.github.io/posts/LinkOutDouble" target="_blank">https://acidbarium.github.io/posts/LinkOutDouble</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-05T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[天梯赛-练习集 -L2-001 紧急救援， 一个不是很正常的过题方法]]></title>
+        <id>https://acidbarium.github.io/posts/sosRightNow</id>
+        <link href="https://acidbarium.github.io/posts/sosRightNow"/>
+        <updated>2025-03-05T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1><center>L2-001 紧急救援</center></h1>
+<center>代码长度限制：16 KB</center>
+<center>时间限制：200 ms </center>
+<cen<br/><p>访问 <a href="https://acidbarium.github.io/posts/sosRightNow" target="_blank">https://acidbarium.github.io/posts/sosRightNow</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-05T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[施工中]]></title>
+        <id>https://acidbarium.github.io/posts/hello-valaxy</id>
+        <link href="https://acidbarium.github.io/posts/hello-valaxy"/>
+        <updated>2021-02-12T21:42:43.000Z</updated>
+        <content type="html"><![CDATA[<h2>如你所见</h2>
+<p>本网站正在施工。有问题请联系：acidbarium@163.com。</p>
+<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Wri</p>
+<br/><p>访问 <a href="https://acidbarium.github.io/posts/hello-valaxy" target="_blank">https://acidbarium.github.io/posts/hello-valaxy</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2021-03-02T21:42:43.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[广告位招租]]></title>
+        <id>https://acidbarium.github.io/posts/adVguangao</id>
+        <link href="https://acidbarium.github.io/posts/adVguangao"/>
+        <updated>1900-02-28T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>广告位招租</h1>
+<p>联系方式：acidbarium@163.com</p>
+<br/><p>访问 <a href="https://acidbarium.github.io/posts/adVguangao" target="_blank">https://acidbarium.github.io/posts/adVguangao</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>1900-02-28T00:00:00.000Z</published>
+    </entry>
+</feed>
