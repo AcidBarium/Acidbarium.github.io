@@ -38,11 +38,26 @@ canvas {
 
 /* 右侧选项 */
 .options {
+    text-align: left;
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: center;
+}
+
+/* 样式用于显示注意事项 */
+.notice {
+    background-color: #f8d7da;
+    /* 浅红色背景 */
+    color: #721c24;
+    /* 红色文字 */
+    border: 1px solid #f5c6cb;
+    /* 边框颜色 */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 14px;
 }
 
 .input-group {
