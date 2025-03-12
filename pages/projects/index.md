@@ -42,6 +42,14 @@ projects:
         github: AcidBarium/GeneCardsWebScraper
         url: https://github.com/AcidBarium/GeneCardsWebScraper/releases
         docs: https://www.cnblogs.com/acidbarium/p/18731876
+      - name: SSDUT-KeepMoving
+        emoji: 🏃🏻‍♂️‍➡️
+        desc: 大连理工大学软件学院keep打卡截图小工具(╹ڡ╹ )
+        color: '#6A5ACD'
+        github: AcidBarium/SSDUT-KeepMoving
+        url: https://acidbarium.github.io/SSDUTkeepMoving/
+        # docs: https://www.cnblogs.com/acidbarium/p/18731876
+      
 
   design:
     title: 设计
