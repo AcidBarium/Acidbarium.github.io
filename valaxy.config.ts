@@ -64,7 +64,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     addonWaline({
       serverURL: "https://waline-bi5pk1nfv-acidbariums-projects.vercel.app",
       locale: {
-        placeholder: "填写qq邮箱或点击登录，可以展示个人头像~详情请见【留言板】板块",
+        placeholder: "来",
       },
       comment: true,
       pageview: true,
