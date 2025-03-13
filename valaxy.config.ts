@@ -50,33 +50,33 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
 
     footer: {
-      since: 2025,
+      since: 2016,
       beian: {
         enable: true,
-        // icp: '苏ICP备17038157号',
+        icp: '苏ICP备17038157号',
       },
     },
-
   },
 
-  // addons: [
-  //   // addonComponents(),
-  //   addonWaline({
-  //     serverURL: "https://waline-bi5pk1nfv-acidbariums-projects.vercel.app",
-  //     locale: {
-  //       placeholder: "欢迎大家来留言",
-  //     },
-  //     comment: true,
-  //     pageview: true,
-  //     emoji: [
-  //       "https://jsd.onmicrosoft.cn/gh/walinejs/emojis@latest/bmoji/",
-  //       "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/weibo/",
-  //       "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/qq/",
-  //       "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/tieba/",
-  //     ],
-  //     // recaptchaV3Key: "",
-  //   }),
-  // ]
+
+  addons: [
+    // addonComponents(),
+    addonWaline({
+      serverURL: "https://waline-bi5pk1nfv-acidbariums-projects.vercel.app",
+      locale: {
+        placeholder: "填写qq邮箱或点击登录，可以展示个人头像~详情请见【留言板】板块",
+      },
+      comment: true,
+      pageview: true,
+      emoji: [
+        "https://jsd.onmicrosoft.cn/gh/walinejs/emojis@latest/bmoji/",
+        "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/weibo/",
+        "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/qq/",
+        "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/tieba/",
+      ],
+      // recaptchaV3Key: "",
+    }),
+  ],
 
   unocss: { safelist },
 })
