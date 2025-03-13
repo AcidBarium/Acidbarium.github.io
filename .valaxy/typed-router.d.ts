@@ -29,9 +29,11 @@ declare module 'vue-router/auto-routes' {
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
-    '/posts/2020-summary': RouteRecordInfo<'/posts/2020-summary', '/posts/2020-summary', Record<never, never>, Record<never, never>>,
+    '/posts/adVguangao': RouteRecordInfo<'/posts/adVguangao', '/posts/adVguangao', Record<never, never>, Record<never, never>>,
+    '/posts/azopenEuler': RouteRecordInfo<'/posts/azopenEuler', '/posts/azopenEuler', Record<never, never>, Record<never, never>>,
     '/posts/hello-valaxy': RouteRecordInfo<'/posts/hello-valaxy', '/posts/hello-valaxy', Record<never, never>, Record<never, never>>,
-    '/posts/start': RouteRecordInfo<'/posts/start', '/posts/start', Record<never, never>, Record<never, never>>,
+    '/posts/LinkOutDouble': RouteRecordInfo<'/posts/LinkOutDouble', '/posts/LinkOutDouble', Record<never, never>, Record<never, never>>,
+    '/posts/sosRightNow': RouteRecordInfo<'/posts/sosRightNow', '/posts/sosRightNow', Record<never, never>, Record<never, never>>,
     '/projects/': RouteRecordInfo<'/projects/', '/projects', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
