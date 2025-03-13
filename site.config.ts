@@ -134,9 +134,9 @@ export default defineSiteConfig({
     ],
   },
 
-  comment: {
-    enable: true,
-  },
+  // comment: {
+  //   enable: true,
+  // },
 
   mediumZoom: {
     enable: true,
