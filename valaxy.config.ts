@@ -1,6 +1,6 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
-
+import { addonWaline } from "valaxy-addon-waline";
 
 // add icons what you will need
 const safelist = [
@@ -58,6 +58,25 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
 
   },
+
+  addons: [
+    // addonComponents(),
+    addonWaline({
+      serverURL: "https://waline-bi5pk1nfv-acidbariums-projects.vercel.app",
+      locale: {
+        placeholder: "欢迎大家来留言",
+      },
+      comment: true,
+      pageview: true,
+      emoji: [
+        "https://jsd.onmicrosoft.cn/gh/walinejs/emojis@latest/bmoji/",
+        "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/weibo/",
+        "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/qq/",
+        "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/tieba/",
+      ],
+      // recaptchaV3Key: "",
+    }),
+  ]
 
   unocss: { safelist },
 })
