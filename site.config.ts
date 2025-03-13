@@ -1,5 +1,5 @@
 import { defineSiteConfig } from 'valaxy'
-import { addonWaline } from 'valaxy-addon-waline'
+// import { addonWaline } from 'valaxy-addon-waline'
 
 export default defineSiteConfig({
   url: 'https://acidbarium.github.io',
