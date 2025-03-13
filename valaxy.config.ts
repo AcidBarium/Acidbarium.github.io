@@ -62,7 +62,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   addons: [
     // addonComponents(),
     addonWaline({
-      serverURL: "https://waline-bi5pk1nfv-acidbariums-projects.vercel.app",
+      serverURL: "https://walinecom-acidbariums-projects.vercel.app/", 
       locale: {
         placeholder: "来",
       },
