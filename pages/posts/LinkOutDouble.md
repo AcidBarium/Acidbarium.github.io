@@ -1,7 +1,7 @@
 ---
 title: L2-002 链表去重
-date: 2025-04-11
-updated: 2025-04-11
+date: 2024-04-11
+updated: 2024-04-11
 categories: 题解
 tags:
   - 算法
