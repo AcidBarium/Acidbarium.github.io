@@ -28,7 +28,7 @@ aplayer: true
 * cba -> 1711874
 这样之后，当我想知道某两个字符串一样的时候，我们只需要知道它们对应的值是否一样就可以了。
 
-<font color=red><font size=5>但是怎么映射呢？</font></font>
+<!-- <font color=red><font size=5>但是怎么映射呢？</font></font> -->
 
 <!-- 
 先不多说，看公式
