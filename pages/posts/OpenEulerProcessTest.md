@@ -1,7 +1,7 @@
 ---
-title: "在 VMware 上安装 openEuler 的完整指南 "
+title: "OpenEuler进程创建与变量独立性实验"
 date: 2025-03-14 20:10:43
-updated: 2025-03-14 20:10:43
+updated: 2025-03-14 20:22:43
 tags:
   - linux
   - 环境配置
@@ -12,7 +12,7 @@ aplayer: true
 
 
 
-# 进程创建与变量独立性实验
+# OpenEuler进程创建与变量独立性实验
 
 ## 1. 获取进程 ID 实验
 
@@ -145,6 +145,8 @@ Child process:My PID is 70846
 
 ## 父进程等待子进程退出测试
 
+### 1.修改代码
+
 修改er.cpp中的代码
 
 ```bash
@@ -189,6 +191,7 @@ int main()
 
 ![alt text](https://acidbarium.github.io/openEulerImg/eulerSecond5.png)
 
+### 2.运行代码
 
 再次编译代码并运行
 
@@ -272,6 +275,8 @@ g++ san.cpp -o san
 
 ## 进程独立性实验
 
+### 1. 编写代码
+
 编写代码如下
 ```cpp
 #include <stdio.h>
@@ -296,6 +301,8 @@ int main()
     return 0;
 }
 ```
+
+### 2. 运行代码
 
 编译并运行得到结果如下
 
