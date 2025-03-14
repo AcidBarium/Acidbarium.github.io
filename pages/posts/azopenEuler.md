@@ -11,8 +11,6 @@ aplayer: true
 ---
 
 
-# 在 VMware 上安装 openEuler 的完整指南  
-
 本文记录了在 VMware 虚拟机中安装 openEuler 的详细步骤，方便大家快速上手。 
 
 <!-- more -->
