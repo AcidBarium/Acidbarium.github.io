@@ -11,7 +11,6 @@ aplayer: true
 ---
 
 
-
 # OpenEuler进程创建与变量独立性实验
 
 ## 1. 获取进程 ID 实验

@@ -8,8 +8,6 @@ tags:
   - 笔记
 ---
 
-
-
 # <center>L2-002 链表去重</center>
 <center>代码长度限制：16 KB</center>
 <center>时间限制：400 ms </center>
