@@ -15,6 +15,8 @@ aplayer: true
 
 本文记录了在 VMware 虚拟机中安装 openEuler 的详细步骤，方便大家快速上手。 
 
+<!-- more -->
+
 我的电脑配置和VMware版本如下：
 
 ![alt text](https://acidbarium.github.io/openEulerImg/bb1.png)
