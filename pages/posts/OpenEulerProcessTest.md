@@ -13,7 +13,7 @@ aplayer: true
 
 # OpenEuler进程创建与变量独立性实验
 
-## 1. 获取进程 ID 实验
+## 获取进程 ID 实验
 
 ### 1. 创建源代码文件
 
@@ -136,7 +136,7 @@ Parent process: My PID is 70845
 Parent process: Child process ID is 70846
 Child process:My PID is 70846
 ```
-   实验结果表明： 
+   结果表明： 
 
 - `fork()` 系统调用成功后，会产生一个子进程。  
 - 父进程输出了自己的进程号以及子进程的进程号，而子进程仅输出自己的进程号。  
@@ -213,7 +213,7 @@ Child process:My PID is 140429
 Parent process: Child exited with status 0
 ```
 
-实验结果显示：  
+结果显示：  
 
 - 父进程在调用 `waitpid()` 后进入等待状态，直至子进程退出后才继续执行后续代码。  
 - 子进程正常退出（退出状态为 0），并且父进程通过 `WIFEXITED` 与 `WEXITSTATUS` 检查子进程的退出状态。  
@@ -265,7 +265,7 @@ g++ san.cpp -o san
 
 ![alt text](https://acidbarium.github.io/openEulerImg/eulerSecond7.png)
 
-结果表明：每次调用 `fork()` 后，当前进程都会复制出一个新的进程。  
+这表明：每次调用 `fork()` 后，当前进程都会复制出一个新的进程。  
 
 - 首次 `fork()` 后：2 个进程  
 - 再次 `fork()` 后：每个进程又复制出一个子进程，总数达到 4 个  
@@ -312,7 +312,7 @@ Parent has x = 0
 Child has x = 2
 ```
   
-实验结果表明，父子进程在 `fork()` 调用后拥有各自独立的内存空间。  
+结果表明，父子进程在 `fork()` 调用后拥有各自独立的内存空间。  
 
 - 父进程对变量 `x` 执行自减操作，输出结果为 0；  
 - 子进程对变量 `x` 执行自增操作，输出结果为 2。  
