@@ -48,7 +48,7 @@ projects:
         color: '#6A5ACD'
         github: AcidBarium/SSDUT-KeepMoving
         url: https://acidbarium.github.io/SSDUTkeepMoving/
-        # docs: https://www.cnblogs.com/acidbarium/p/18731876
+        docs: https://acidbarium.github.io/posts/keepMoving
       
 
   design:
