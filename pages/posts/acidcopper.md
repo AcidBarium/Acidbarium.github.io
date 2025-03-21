@@ -9,6 +9,12 @@ tags:
   - napcat
 ---
 
-> 人总是渴望温暖，渴望拥抱，渴望着爱，就像扑火。
+> 人总是渴望温暖，
+渴望拥抱，
+渴望着爱，
+就像扑火。
+
+![alt text](../../public/img/acidcopper1.png)
+
 
 <!-- more -->
