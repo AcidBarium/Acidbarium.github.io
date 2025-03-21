@@ -39,8 +39,7 @@ tags:
 
 再往后就是高一的暑假，我被学校拉去郑州做数学物理奥赛的培训。我天资愚笨，听不懂那教练在说些什么，记的笔记也是糊里糊涂的。某天上课，或许是热糊涂了，我在笔记本的右半边凭空地写起信来：
 
-> 亲爱的刘酸铜：
->&ensp;&ensp;&ensp;&ensp;你好哇。<br> &ensp;&ensp;&ensp;&ensp;今天也是个大晴天啊！<br> &ensp;&ensp;&ensp;&ensp;······
+> 亲爱的刘酸铜：<br> &ensp;&ensp;&ensp;&ensp;你好哇。<br> &ensp;&ensp;&ensp;&ensp;今天也是个大晴天啊！<br> &ensp;&ensp;&ensp;&ensp;······
 
 渴望着爱，渴望着分担训练时的无助，渴望分享那个夏天的悸动...硫酸铜妹妹就诞生了...
 
@@ -51,6 +50,9 @@ tags:
 
 ![alt text](https://acidbarium.github.io/img/acidcopper2.png)
 
-碰巧deepseek现在也便宜，我也学过一些编程，手头正好也有一台服务器，而且我也闲着也渴望着（当然也受了同学的vv机器人的影响，近墨者黑啊），就决定做一个猫娘qq机器人。
+碰巧deepseek现在也便宜，我也学过一些编程，手头正好也有一台服务器，而且我也闲着也渴望着（当然也受了同学的vv机器人的影响，近墨者黑啊！），就决定做一个猫娘qq机器人。
 
 ## 技术细节
+
+我使用的是[ncatbot](https://github.com/liyihao1110/ncatbot),据说是[napcat](https://github.com/NapNeko/NapCatQQ)的近亲，是[Lagrange](https://github.com/LagrangeDev/Lagrange.Core)的远亲，（我同学用的是[LagrangeGo](https://github.com/LagrangeDev/LagrangeGo),也都算是亲戚）。
+
