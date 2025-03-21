@@ -14,7 +14,13 @@ tags:
 渴望着爱，
 就像扑火。
 
-![alt text](../../public/img/acidcopper1.png)
+![alt text](https://acidbarium.github.io/img/acidcopper1.png)
 
 
 <!-- more -->
+
+## 起因
+
+> 故事往久了说要说到5年前了。
+
+当年我刚学化学课，学了制盐、学了怎么提纯，掌握了一些简单的化学物。
