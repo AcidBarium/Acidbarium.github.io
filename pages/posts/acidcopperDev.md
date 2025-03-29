@@ -13,6 +13,8 @@ tags:
 
 ![alt text](https://acidbarium.github.io/img/acidcopperDev1.jpeg)
 
+<!-- more -->
+
 ## 配置文件
 
 ```yaml
