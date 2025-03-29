@@ -11,6 +11,23 @@
             left: 0;
         }
 
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0);
+            color: white;
+            text-align: center;
+            font-size: 40px;
+            padding: 10px;
+            z-index: 10;
+
+            /* 霓虹发光 */
+            font-family: "Arial", sans-serif;
+            text-shadow: 0 0 5px #fff, 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff;
+        }
+
         footer {
             position: fixed;
             bottom: 0;
@@ -27,13 +44,48 @@
             font-family: "Arial", sans-serif;
             text-shadow: 0 0 5px #fff, 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff;
         }
+
+        footer p {
+            font-size: 40px;
+            /* 大字体 */
+        }
+
+        footer p2 {
+            font-size: 20px;
+            /* 小字体 */
+            display: block;
+            /* 确保 p2 正常换行 */
+            margin-top: 5px;
+            /* 添加一点间距 */
+        }
     </style>
 </head>
 
 <body>
+    <audio id="bg-music" autoplay loop>
+        <source src="./happy.mp3" type="audio/mp3">
+        您的浏览器不支持音频播放。
+    </audio>
+
+    <header>点击任意位置播放音乐</header>
+
     <canvas id="c"></canvas>
 
     <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var music = document.getElementById("bg-music");
+
+            var playMusic = function () {
+                music.play().catch(error => {
+                    console.log("自动播放被阻止，等待用户交互");
+                });
+                document.removeEventListener("click", playMusic);
+            };
+
+            document.addEventListener("click", playMusic);
+        });
+
+
         var w = (c.width = window.innerWidth),
             h = (c.height = window.innerHeight),
             ctx = c.getContext('2d'),
@@ -460,7 +512,7 @@
 
     <footer>
         <p>还有精美小礼品在路上</p>
-
+        <p2>制作：刘晨旭。 提出伟大的高瞻远瞩的必不可少的举足轻重的意见：刘晨曦</p2>
     </footer>
 
 </body>
