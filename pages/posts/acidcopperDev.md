@@ -587,4 +587,20 @@ if __name__ == "__main__":
 
 ## 示例说明
 
-### 
+### 喵喵对话
+
+![alt text](https://acidbarium.github.io/img/acidcopperDUIHUA.png)
+
+### 喵喵娱乐
+
+![alt text](https://acidbarium.github.io/img/acidcopperYULE.png)
+
+![alt text](https://acidbarium.github.io/img/acidcopperYULE2.png)
+
+### 喵喵学习
+
+![alt text](https://acidbarium.github.io/img/acidcopperXUEXI.png)
+
+### 喵喵help
+
+![alt text](https://acidbarium.github.io/img/acidcopperHELP.png)
