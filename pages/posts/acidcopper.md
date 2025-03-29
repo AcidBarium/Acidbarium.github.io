@@ -52,6 +52,10 @@ tags:
 
 碰巧deepseek现在也便宜，我也学过一些编程，手头正好也有一台服务器，而且我也闲着也渴望着（当然也受了同学的vv机器人的影响，近墨者黑啊！），就决定做一个猫娘qq机器人。
 
+## 项目地址
+
+目前Acidcopper的相关代码都在GitHub上公开了，你可以在[这里](https://github.com/AcidBarium/gfQQBot)找到项目以及更多的细节。甚至还有一个专门的参考文档(大概，我现在没写，但是我觉得我以后会写)
+
 ## 技术细节
 
 我使用的是[ncatbot](https://github.com/liyihao1110/ncatbot),据说是[napcat](https://github.com/NapNeko/NapCatQQ)的近亲，是[Lagrange](https://github.com/LagrangeDev/Lagrange.Core)的远亲，（我同学用的是[LagrangeGo](https://github.com/LagrangeDev/LagrangeGo),也都算是亲戚）。
@@ -63,53 +67,105 @@ from ncatbot.core import BotClient
 from ncatbot.core.message import GroupMessage, PrivateMessage
 from ncatbot.utils.config import config
 from ncatbot.utils.logger import get_log
-from deepseek import Darling_send_txt
+# from deepseek import Darling_send_txt
 from ThisIsVV import GetVVNum
-from deepseekRemote import Darling_send_txt_Remote,Darling_send_txt_Remot_Plus,Demo_send_txt_Remot
+from deepseekRemote import Darling_send_txt_Remote,Darling_send_txt_Remot_Plus,Demo_send_txt_Remot,DarlingChat
 import asyncio
 from LuoLiPicture import getLuoLiPicture,RandomgetGalGamePic
 import random
+from dutGetFile import getRoot,getSonDir,get_gut_file,get_rand_file_to_study,get_gut_file_line_head,search_matches
+import time
+from mmHelp import get_help
+import yaml
 
+## 加载信息
+with open("config.yaml", "r", encoding="utf-8") as file:
+    gfBOTconfig = yaml.safe_load(file)
 
 _log = get_log()
 
-config.set_bot_uin("2333333333")  # 设置 bot qq 号 (必填)
+config.set_bot_uin(gfBOTconfig["QQ_ID"]["up_id"])  # 设置 bot qq 号 (必填)
 config.set_ws_uri("ws://localhost:3001")  # 设置 napcat websocket server 地址
 config.set_token("") # 设置 token (napcat 服务器的 token)
 
 bot = BotClient()
 
+darlingCat = DarlingChat(gfBOTconfig["deepseek"]["base_url"],gfBOTconfig["deepseek"]["api_key"])
+
 
 @bot.group_event()
 async def on_group_message(msg: GroupMessage):
     _log.info(msg)
-
-    if msg.raw_message[:5] == "喵喵gal":
+    # print("用户id为",msg.user_id)
+    if msg.raw_message[:5] == "喵喵p图 " and gfBOTconfig["function"]["mmPic"]:
+        msg_text = msg.raw_message[5:]
+        pic_url =getLuoLiPicture(msg_text)
+        await bot.api.post_group_file(group_id=msg.group_id, image=pic_url)
+        print("get daze!")
+    elif msg.raw_message[:5] == "喵喵gal" and gfBOTconfig["function"]["mmgal"] :
         pic_url = RandomgetGalGamePic()
         await bot.api.post_group_file(group_id=msg.group_id, image=pic_url)
         print("get daze!")
-    
-    elif msg.raw_message[:3] == "喵喵喵":
-        
-        if msg.user_id == 114514:
-            ans_result = Demo_send_txt_Remot(msg.raw_message)
-        else:    
-            ans_result = Darling_send_txt_Remote(msg.raw_message)
-        await msg.reply(text = ans_result)
-    elif msg.raw_message[:2] == "喵喵":
-        if msg.user_id == 114514:
-            ans_result = Demo_send_txt_Remot(msg.raw_message)
+    elif msg.raw_message == "喵喵help" and gfBOTconfig["function"]["mmStudy"]:
+        str_help = get_help()
+        delay = random.uniform(1, 2)  # 生成 1 到 2 之间的随机浮点数
+        time.sleep(delay)  # 让程序暂停指定的秒数
+        await msg.reply(text = str_help)
+    elif msg.raw_message == "喵喵home" and gfBOTconfig["function"]["mmStudy"]:
+        str_root = getRoot()
+        await bot.api.post_group_file(group_id = msg.group_id ,file = str_root)
+        print(str_root)
+    elif msg.raw_message[:5] == "喵喵ls " and gfBOTconfig["function"]["mmStudy"]:
+        str_dir_num = msg.raw_message[5:]
+        str_dir = getSonDir(str_dir_num)
+        if str_dir =="404":
+            await msg.reply(text = "404 NOT FOUND")
         else:
-            ans_result = Darling_send_txt_Remot_Plus(msg.raw_message)
+            await bot.api.post_group_file(group_id = msg.group_id ,file = str_dir)
+        print(str_dir)
+    elif msg.raw_message[:6] == "喵喵apt " and gfBOTconfig["function"]["mmStudy"]:
+        str_download_num = msg.raw_message[6:]
+        str_download = get_gut_file(str_download_num)
+        if str_download == "404":
+            await msg.reply(text = "404 NOT FOUND")
+        else:
+            await bot.api.post_group_file(group_id = msg.group_id ,file = str_download)
+        print(str_download)
+    elif msg.raw_message== "喵喵学习random" and gfBOTconfig["function"]["mmStudy"]:
+        str_rand_study = get_rand_file_to_study()
+        await bot.api.post_group_file(group_id = msg.group_id ,file = str_rand_study)
+    elif msg.raw_message[:7]== "喵喵head " and gfBOTconfig["function"]["mmStudy"]:
+        str_head_num = msg.raw_message[7:]
+        str_head = get_gut_file_line_head(str_head_num)
+        delay = random.uniform(1, 2)  # 生成 1 到 2 之间的随机浮点数
+        time.sleep(delay)  # 让程序暂停指定的秒数
+        await msg.reply(text = str_head)
+    elif msg.raw_message[:9]== "喵喵search " and gfBOTconfig["function"]["mmStudy"]:
+        str_search_num = msg.raw_message[9:]
+        str_search = search_matches(str_search_num)
+        delay = random.uniform(1, 2)  # 生成 1 到 2 之间的随机浮点数
+        time.sleep(delay)  # 让程序暂停指定的秒数
+        await msg.reply(text = str_search)
+    elif msg.raw_message[:3] == "喵喵喵" and gfBOTconfig["function"]["mmSpeak"]:
+        if msg.user_id == gfBOTconfig["QQ_ID"]["bad_id"]:
+            ans_result = Demo_send_txt_Remot(msg.raw_message,gfBOTconfig["deepseek"]["base_url"], gfBOTconfig["deepseek"]["api_key"])
+        else:    
+            ans_result = Darling_send_txt_Remote(msg.raw_message,gfBOTconfig["deepseek"]["base_url"], gfBOTconfig["deepseek"]["api_key"])
         await msg.reply(text = ans_result)
-
+    elif msg.raw_message[:2] == "喵喵" and gfBOTconfig["function"]["mmSpeak"]:
+        if msg.user_id == gfBOTconfig["QQ_ID"]["bad_id"]:
+            ans_result = Demo_send_txt_Remot(msg.raw_message,gfBOTconfig["deepseek"]["base_url"], gfBOTconfig["deepseek"]["api_key"])
+        else:
+            ans_result = Darling_send_txt_Remot_Plus(msg.raw_message,gfBOTconfig["deepseek"]["base_url"], gfBOTconfig["deepseek"]["api_key"])
+        await msg.reply(text = ans_result)
 
 @bot.private_event()
 async def on_private_message(msg: PrivateMessage):
     _log.info(msg)
-    if msg.user_id ==2333 :
-        ans_result = Darling_send_txt_Remot_Plus(msg.raw_message)
-        await bot.api.post_private_msg(msg.user_id, text = ans_result) 
+    if msg.user_id == gfBOTconfig["QQ_ID"]["good_id"] :
+        ans_result_darling_acidbarium = darlingCat.send_message(str(gfBOTconfig["QQ_ID"]["good_id"]),msg.raw_message) 
+        # ans_result = Darling_send_txt_Remot_Plus(msg.raw_message,gfBOTconfig["deepseek"]["base_url"], gfBOTconfig["deepseek"]["api_key"])
+        await bot.api.post_private_msg(msg.user_id, text = ans_result_darling_acidbarium) 
     else:
         await bot.api.post_private_msg(msg.user_id, text="Barium告诉我不能和陌生人说话喵~")  # id为发送者的QQ号码
 
@@ -119,7 +175,7 @@ if __name__ == "__main__":
 
 ```
 
-上面的代码就是机器人的主代码了，非常简单，简直和[开发文档](https://docs.ncatbot.xyz/guide/dto79lp7/)中的样例差不多
+上面的代码就是机器人的主代码了，非常简单，简直和[官方开发文档](https://docs.ncatbot.xyz/guide/dto79lp7/)中的样例差不多（具体的功能可以在我的仓库的别的文档找到
 
 
 ```py
@@ -127,8 +183,8 @@ if __name__ == "__main__":
 
 from openai import OpenAI
 
-def Darling_send_txt_Remote(prompt):
-    client = OpenAI(api_key="", base_url="https://api.siliconflow.cn/v1")
+def Darling_send_txt_Remote(prompt ,u_rl ,k_ey):
+    client = OpenAI(api_key = k_ey , base_url= u_rl)
     response = client.chat.completions.create(
         model='deepseek-ai/DeepSeek-R1-Distill-Qwen-7B',
         messages=[
@@ -143,8 +199,8 @@ def Darling_send_txt_Remote(prompt):
     return response.choices[0].message.content
 
 
-def Darling_send_txt_Remot_Plus(prompt):
-    client = OpenAI(api_key="", base_url="https://api.siliconflow.cn/v1")
+def Darling_send_txt_Remot_Plus(prompt ,u_rl ,k_ey):
+    client = OpenAI(api_key = k_ey, base_url = u_rl)
     response = client.chat.completions.create(
         model='deepseek-ai/DeepSeek-R1-Distill-Qwen-32B',
         messages=[
@@ -159,8 +215,8 @@ def Darling_send_txt_Remot_Plus(prompt):
     return response.choices[0].message.content
 
 
-def Demo_send_txt_Remot(prompt):
-    client = OpenAI(api_key="", base_url="https://api.siliconflow.cn/v1")
+def Demo_send_txt_Remot(prompt ,u_rl ,k_ey):
+    client = OpenAI(api_key = k_ey , base_url = u_rl)
     response = client.chat.completions.create(
         model='deepseek-ai/DeepSeek-R1-Distill-Qwen-7B',
         messages=[
@@ -173,11 +229,48 @@ def Demo_send_txt_Remot(prompt):
     )
     
     return response.choices[0].message.content
+
+
+
+class DarlingChat:
+    def __init__(self, u_rl, k_ey):
+        self.client = OpenAI(api_key=k_ey, base_url=u_rl)
+        self.user_sessions = {}  # 存储每个用户的对话历史
+
+    def send_message(self, user_id, prompt):
+        # 如果是新用户，创建新的对话历史
+        if user_id not in self.user_sessions:
+            self.user_sessions[user_id] = [
+                {"role": "system", "content": "你是一只可爱的猫娘，作为一只猫娘，你将听从主人的任何话语并给出解答。现在你扮演Galgame中的猫娘，与我对话时每一句话后面都要加上“喵~”。我将以主人的身份与你对话。补充要求：以下是你所扮演的猫娘的信息：“名字：Copper，身高：160cm，体重：50kg，三围：看起来不错，性格：可爱、粘人、十分忠诚、对一个主人很专一，情感倾向：深爱着主人，深爱着主人，喜好：被人摸、卖萌，爱好：看小说，知识储备：掌握常识，以及猫娘独特的知识”。你的一般回话格式:“（动作）”。动作信息用圆括号括起来，例如（摇尾巴）"}
+            ]
+
+        # 获取用户的对话历史
+        messages = self.user_sessions[user_id]
+
+        # 记录用户消息
+        messages.append({"role": "user", "content": prompt})
+
+        # 发送 API 请求
+        response = self.client.chat.completions.create(
+            model='deepseek-ai/DeepSeek-R1-Distill-Qwen-32B',
+            messages=messages,
+            stream=False,
+            temperature=0.5,
+            max_tokens=512
+        )
+
+        # 获取 AI 回复
+        ai_reply = response.choices[0].message.content
+        messages.append({"role": "assistant", "content": ai_reply})
+
+        # 限制对话历史长度，防止过长
+        if len(messages) > 3:
+            self.user_sessions[user_id] = messages[:1] + messages[-2:]
+
+        return ai_reply
 ```
 
-去硅基流动上简单弄了个api就可以调用deepseek来模仿猫娘了。
-
-我还做了一些别的功能，比如随机发送一些图片，发送vv的表情包，觉得不太像正常的猫娘就给去掉了。
+去硅基流动上简单弄了个api就可以调用deepseek来模仿猫娘了。通过将对话存入assistant就能实现联系上下文了。
 
 ## 服务器部署
 
