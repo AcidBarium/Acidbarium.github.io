@@ -20,7 +20,7 @@ aplayer: true
 
 如图所示:
 
-![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/1.png)
+![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/1.png?raw=true)
 
 ## 2. SSH 密钥配置与 GitHub 免密登录
 
@@ -32,7 +32,7 @@ ssh-keygen -t ed25519 -C "acidbarium@163.com"
 
 如图所示
 
-![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/2.png)
+![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/2.png?raw=true)
 
 使用下面的命令来查看SSH公钥​​
 
@@ -42,7 +42,7 @@ cat~/.ssh/id_ed25519.pub
 
 将该公钥添加至 GitHub 中的 SSH 密钥设置，如图所示：
 
-![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/3.png)
+![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/3.png?raw=true)
 
 然后，使用以下命令来验证 SSH 密钥是否已正确配置并能成功连接 GitHub：
 
@@ -52,13 +52,13 @@ ssh -T git@github.com
 
 如图所示，配置正确，显示成功消息：
 
-![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/5.png)
+![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/5.png?raw=true)
 
 ## 3. Linux开发环境配置
 
 为进行代码开发，首先在Linux上创建一个新的文件夹，如图所示
 
-![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/6.png)
+![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/6.png?raw=true)
 
 通过下面的命令下载git
 
@@ -66,7 +66,7 @@ ssh -T git@github.com
 sudo yum install -y git
 ```
 
-![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/7.png)
+![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/7.png?raw=true)
 
 
 通过 Git 克隆仓库到Linux：
@@ -77,9 +77,9 @@ git clone git@github.com:AcidBarium/osHomework.git
 
 如图所示
 
-![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/8.png)
+![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/8.png?raw=true)
 
-![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/9.png)
+![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/9.png?raw=true)
 
 
 在仓库管理过程中，使用以下命令同步更新代码并提交更改：
@@ -129,7 +129,7 @@ int main(int argc, char *argv[])
 
 如下图所示
 
-![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/11.png)
+![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/11.png?raw=true)
 
 通过下面的指令编译
 
@@ -144,7 +144,7 @@ Ciallo world!
 ```
 如下图所示
 
-![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/12.png)
+![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/12.png?raw=true)
 
 
 ### 4.2 多线程性能测试
@@ -247,7 +247,7 @@ int main()
 
 运行结果如下图所示
 
-![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/13.png)
+![alt text](https://github.com/AcidBarium/osHomework/blob/main/OSEuThird/img/13.png?raw=true)
 
 运行该程序后，可以观察到多线程计算的时间明显低于单线程计算，在多线程的支持下，程序的计算速度大约提高了一倍，证明了多线程在并行计算中的优势。
 
