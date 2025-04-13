@@ -7,6 +7,10 @@ valaxy-fuse-list.json
 .vite-ssg-dist
 .vite-ssg-temp
 
+node_modules/
+node_modules/.bin/
+node_modules/.pnpm/
+
 temp/
 
 .DS_Store
