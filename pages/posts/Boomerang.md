@@ -1,7 +1,7 @@
 ---
 title: Boomerang
 date: 2025-04-11
-updated: 2024-04-11
+updated: 2025-04-14
 categories: 题解
 tags:
   - 算法
