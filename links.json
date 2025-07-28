@@ -1,0 +1,42 @@
+[
+    {
+        "url": "https://kpmark.icu/",
+        "avatar": "https://kpmark.icu/static/nav_avatar.jpg",
+        "name": "kpmark",
+        "blog": "kpmark的网站",
+        "desc": "人與人總是在不聞不問的日子里慢慢告別",
+        "color": "#18c964"
+    },
+    {
+        "url": "https://saurlax.com/",
+        "avatar": "https://saurlax.com/avatar.jpg",
+        "name": "saurlax",
+        "blog": "Saurlax",
+        "desc": "Web, IoT, ML, Cybersecurity and Graphics developer.",
+        "color": "#FFE7BA"
+    },
+    {
+        "url": "https://yuumi.link",
+        "avatar": "https://cdn.yuumi.link/images/settings/favicon.png",
+        "name": "Yuumi",
+        "blog": "-Yuumi's Blog-",
+        "desc": "続きを鳴らそう——",
+        "color": "#D69B54"
+    },
+    {
+        "url": "https://Farewe1ll.github.io/",
+        "avatar": "https://cn.gravatar.com/avatar/16c96eb8bd6cc836180feb96467f570a?size=256",
+        "name": "Farewe1ll_山竹",
+        "blog": "Farewe1ll's Blog",
+        "desc": "拨雪寻春，烧灯续昼。",
+        "color": "#4AB3B6"
+    },
+    {
+        "url": "https://yuumi.link",
+        "avatar": "https://cdn.yuumi.link/images/settings/favicon.png",
+        "name": "Yuumi",
+        "blog": "-Yuumi's Blog-",
+        "desc": "続きを鳴らそう——",
+        "color": "#D69B54"
+    }
+]
