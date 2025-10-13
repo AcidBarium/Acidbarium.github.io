@@ -1,3 +1,12 @@
+---
+title: LLVM-Tutor Pass 开发与实践
+date: 2025-06-20
+updated: 2025-10-13
+categories: LLVM
+tags:
+  - 笔记
+  - pass
+---
 
 
 ## 📖 今日学习总结：LLVM-Tutor Pass 开发与实践
