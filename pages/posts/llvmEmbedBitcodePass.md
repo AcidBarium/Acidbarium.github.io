@@ -1,7 +1,20 @@
+---
+title: EmbedBitcodePass的移植
+date: 2025-07-02
+updated: 2025-10-13
+categories: LLVM
+tags:
+  - 笔记
+  - pass
+---
+
+
+
 # EmbedBitcodePass
 
 EmbedBitcodePass 是一个 LLVM 中的优化 pass，主要作用是将一个模块的 bitcode 嵌入到另一个模块中，以便在后续的链接或编译过程中，能够携带原始模块的信息。具体来说，它将当前模块的 bitcode 嵌入到一个新的全局变量中，使得这个模块成为一个"自包含"的模块。
 
+<!-- more -->
 
 <details>
   <summary>llvm17上的源代码</summary>
