@@ -10,19 +10,7 @@ tags:
 
 
 
-
-
-
-
-# LowerGlobalDtors
-
-
-
-
-# 申威移植 LowerGlobalDtors
-
-
-和之前的思路一样，不过张长明学长这次是通过make来编译的，非常顺利，成功移植了LowerGlobalDtors
+和之前的思路一样，不过学长这次是通过make来编译的，非常顺利，成功移植了LowerGlobalDtors
 
 如下图
 
