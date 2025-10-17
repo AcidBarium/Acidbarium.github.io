@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>深度分析 - 网红城市社会治理新课题</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px 20px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-top: 15px;
+            transition: all 0.3s ease;
+        }
+        
+        .back-btn:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+        }
+        
+        .analysis-section {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            color: #3498db;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        h3 {
+            color: #2c3e50;
+            margin: 25px 0 15px 0;
+            font-size: 1.4em;
+            padding-left: 15px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .analysis-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin: 25px 0;
+        }
+        
+        .analysis-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            border-top: 5px solid #e74c3c;
+            transition: transform 0.3s ease;
+        }
+        
+        .analysis-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .factor-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .factor-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #e9ecef;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .factor-list li:before {
+            content: "•";
+            color: #3498db;
+            font-weight: bold;
+            position: absolute;
+            left: 10px;
+        }
+        
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .comparison-table th {
+            background: #3498db;
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+        
+        .comparison-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .comparison-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        
+        .highlight {
+            background: #fff3cd !important;
+            color: #856404;
+            font-weight: bold;
+        }
+        
+        footer {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .analysis-section {
+                padding: 20px;
+            }
+            
+            .analysis-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .comparison-table {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>深度分析：网红城市现象解读</h1>
+            <p>探究城市"出圈"背后的深层逻辑与社会治理变革</p>
+            <a href="index.html" class="back-btn">返回首页</a>
+        </header>
+
+        <section class="analysis-section">
+            <h2>一、何以爆红：偶然还是必然？</h2>
+            
+            <div class="analysis-grid">
+                <div class="analysis-card">
+                    <h3>流量奇迹的必然因素</h3>
+                    <ul class="factor-list">
+                        <li><strong>文化积淀深厚</strong> - 独特的地方文化特色</li>
+                        <li><strong>民众情绪共鸣</strong> - 满足后疫情时代的消费需求</li>
+                        <li><strong>城市治理基础</strong> - 完善的基础设施和服务体系</li>
+                        <li><strong>数字传播环境</strong> - 成熟的社交媒体生态</li>
+                    </ul>
+                </div>
+                
+                <div class="analysis-card">
+                    <h3>偶然中的必然规律</h3>
+                    <ul class="factor-list">
+                        <li><strong>时机把握</strong> - 精准捕捉市场空白期</li>
+                        <li><strong>情绪引爆点</strong> - 创造集体记忆和情感连接</li>
+                        <li><strong>口碑裂变</strong> - 用户自发传播形成规模效应</li>
+                        <li><strong>政府响应</strong> - 快速有效的政策支持</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="analysis-section">
+            <h2>二、地方政府的能力转变</h2>
+            
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>治理领域</th>
+                        <th>传统模式</th>
+                        <th>网红城市新模式</th>
+                        <th>转变特征</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>营商环境</strong></td>
+                        <td>审批导向、流程复杂</td>
+                        <td class="highlight">服务导向、简化流程</td>
+                        <td>从管理者向服务者转变</td>
+                    </tr>
+                    <tr>
+                        <td><strong>公共服务</strong></td>
+                        <td>标准化、统一供给</td>
+                        <td class="highlight">个性化、精准匹配</td>
+                        <td>需求导向的精准服务</td>
+                    </tr>
+                    <tr>
+                        <td><strong>舆情应对</strong></td>
+                        <td>被动响应、信息封闭</td>
+                        <td class="highlight">主动引导、信息公开</td>
+                        <td>建立快速响应机制</td>
+                    </tr>
+                    <tr>
+                        <td><strong>诚信建设</strong></td>
+                        <td>事后监管、处罚为主</td>
+                        <td class="highlight">事前预防、信用体系</td>
+                        <td>构建诚信营商环境</td>
+                    </tr>
+                    <tr>
+                        <td><strong>城市营销</strong></td>
+                        <td>官方宣传、单向传播</td>
+                        <td class="highlight">全民参与、互动传播</td>
+                        <td>打造城市IP和品牌</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="analysis-section">
+            <h2>三、社会治理现代化的新特征</h2>
+            
+            <div class="analysis-grid">
+                <div class="analysis-card">
+                    <h3>数字化治理转型</h3>
+                    <ul class="factor-list">
+                        <li>大数据分析游客行为特征</li>
+                        <li>智能化调度公共服务资源</li>
+                        <li>实时监测舆情动态变化</li>
+                        <li>精准推送个性化服务信息</li>
+                    </ul>
+                </div>
+                
+                <div class="analysis-card">
+                    <h3>协同治理创新</h3>
+                    <ul class="factor-list">
+                        <li>政府-企业-市民多方协作</li>
+                        <li>跨部门联动响应机制</li>
+                        <li>社会力量广泛参与</li>
+                        <li>建立利益共享机制</li>
+                    </ul>
+                </div>
+                
+                <div class="analysis-card">
+                    <h3>柔性治理策略</h3>
+                    <ul class="factor-list">
+                        <li>情感治理增强城市温度</li>
+                        <li>文化治理塑造城市品牌</li>
+                        <li>体验治理优化游客感受</li>
+                        <li>精细治理提升服务品质</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="analysis-section">
+            <h2>四、流量经济的双重效应</h2>
+            
+            <div class="analysis-grid">
+                <div class="analysis-card">
+                    <h3>正面效应</h3>
+                    <ul class="factor-list">
+                        <li><strong>经济拉动</strong> - 带动消费和就业增长</li>
+                        <li><strong>品牌提升</strong> - 增强城市知名度和美誉度</li>
+                        <li><strong>治理倒逼</strong> - 推动政府服务能力提升</li>
+                        <li><strong>信心提振</strong> - 增强市民归属感和自豪感</li>
+                    </ul>
+                </div>
+                
+                <div class="analysis-card">
+                    <h3>挑战与风险</h3>
+                    <ul class="factor-list">
+                        <li><strong>承载压力</strong> - 基础设施和服务超负荷</li>
+                        <li><strong>品质下降</strong> - 服务质量难以保障</li>
+                        <li><strong>同质竞争</strong> - 盲目模仿失去特色</li>
+                        <li><strong>舆情风险</strong> - 负面事件放大效应</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>网红城市社会治理新课题研究小组 © 2024</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.analysis-card');
+            
+            cards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-5px)';
+                    this.style.boxShadow = '0 10px 25px rgba(0, 0, 0, 0.15)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                    this.style.boxShadow = '0 8px 25px rgba(0, 0, 0, 0.15)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
