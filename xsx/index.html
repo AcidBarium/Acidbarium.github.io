@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网红城市社会治理新课题 - 小组讨论展示</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px 20px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        
+        .nav-menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 30px 0;
+        }
+        
+        .nav-btn {
+            background: #3498db;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .nav-btn:hover {
+            background: #2980b9;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        .theme-section {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            color: #3498db;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        h3 {
+            color: #2c3e50;
+            margin: 20px 0 15px 0;
+            font-size: 1.4em;
+        }
+        
+        .discussion-points {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .point-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #3498db;
+            transition: transform 0.3s ease;
+        }
+        
+        .point-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .process-section {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .process-steps {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 5px solid #e74c3c;
+        }
+        
+        .step-number {
+            background: #e74c3c;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2em;
+            flex-shrink: 0;
+        }
+        
+        .results-section {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .result-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            border-top: 5px solid #27ae60;
+        }
+        
+        .value-section {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .value-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .value-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            border-bottom: 5px solid #f39c12;
+        }
+        
+        .division-section {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .division-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .division-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border-right: 5px solid #9b59b6;
+        }
+        
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .member {
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+        
+        footer {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            
+            .container {
+                padding: 10px;
+            }
+            
+            .theme-section, .process-section, .results-section, .value-section, .division-section {
+                padding: 20px;
+            }
+            
+            .nav-btn {
+                padding: 12px 20px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>从"淄博烧烤"到"哈尔滨出圈"</h1>
+            <div class="subtitle">如何看待"网红城市"背后的社会治理新课题？</div>
+            
+            <div class="nav-menu">
+                <a href="analysis.html" class="nav-btn">深度分析</a>
+                <a href="cases.html" class="nav-btn">案例研究</a>
+                <a href="strategy.html" class="nav-btn">发展策略</a>
+                <a href="model.html" class="nav-btn">治理模型</a>
+                <a href="team.html" class="nav-btn">团队介绍</a>
+            </div>
+        </header>
+
+        <section class="theme-section">
+            <h2>一、主题与核心内容</h2>
+            <div class="discussion-points">
+                <div class="point-card">
+                    <h3>城市"出圈"是偶然还是必然？</h3>
+                    <p>探究城市出圈是偶然的流量奇迹，还是其城市治理、文化积淀与民众情绪共同作用的必然结果</p>
+                </div>
+                <div class="point-card">
+                    <h3>地方政府的积极转变</h3>
+                    <p>分析地方政府在营商环境、公共服务、舆情应对、诚信建设等方面的能力转变与提升</p>
+                </div>
+                <div class="point-card">
+                    <h3>从"流量"到"留量"的转化</h3>
+                    <p>探讨将短期"流量"转化为持久"留量"的路径，总结对其他城市发展的启示</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="process-section">
+            <h2>二、讨论组织与流程</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div>
+                        <h3>明确任务</h3>
+                        <p>首先明确讨论主题、具体讨论要点以及预期目标，确保全体成员理解一致、方向明确</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div>
+                        <h3>案例分享</h3>
+                        <p>每位成员简要分享一个印象最深刻的"网红城市"案例，重点阐述最打动自己或者引发思考的地方</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div>
+                        <h3>头脑风暴</h3>
+                        <p>基于案例分享，围绕"何以爆红"、"何以应对"与"何以长红"三个维度展开自由讨论</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div>
+                        <h3>聚焦深挖</h3>
+                        <p>分组深入探讨三个关键维度，对观点进行整合与深化</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div>
+                        <h3>汇总整合</h3>
+                        <p>各小组汇报讨论成果，全员共同进行最终观点修正与内容整合</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="results-section">
+            <h2>三、讨论成果与展示</h2>
+            <div class="results-grid">
+                <div class="result-card">
+                    <h3>研究报告</h3>
+                    <p>"网红城市"现象分析与发展建议研究报告，系统分析成因、可持续发展路径和应对策略</p>
+                </div>
+                <div class="result-card">
+                    <h3>思维导图</h3>
+                    <p>治理能力评估模型思维导图，直观展示城市在承接流量、实现可持续发展过程中的核心治理能力</p>
+                </div>
+                <div class="result-card">
+                    <h3>PPT汇报</h3>
+                    <p>图文并茂的展示形式，简洁明了地呈现研究成果和核心见解</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="value-section">
+            <h2>作品的价值与意义</h2>
+            <div class="value-cards">
+                <div class="value-card">
+                    <h3>理论价值</h3>
+                    <p>将"网红"现象提升至公共管理学分析层面，为理解城市治理现代化提供鲜活分析框架</p>
+                </div>
+                <div class="value-card">
+                    <h3>实践价值</h3>
+                    <p>为正在经历"出圈"现象或渴望获得关注的城市提供现实参考价值和发展策略</p>
+                </div>
+                <div class="value-card">
+                    <h3>启示价值</h3>
+                    <p>为数字经济时代下的城市品牌塑造、治理模式创新提供新视角和发展路径选择</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="division-section">
+            <h2>四、小组分工</h2>
+            <div class="division-grid">
+                <div class="division-item">
+                    <h4>提纲</h4>
+                    <p>肖福晟、郑济坤</p>
+                </div>
+                <div class="division-item">
+                    <h4>PPT</h4>
+                    <p>刘俊锋、许子浩</p>
+                </div>
+                <div class="division-item">
+                    <h4>演讲稿</h4>
+                    <p>刘墨林、刘晨旭</p>
+                </div>
+                <div class="division-item">
+                    <h4>汇报人</h4>
+                    <p>付磊</p>
+                </div>
+            </div>
+            <div class="team-members">
+                <div class="member">肖福晟</div>
+                <div class="member">郑济坤</div>
+                <div class="member">刘俊锋</div>
+                <div class="member">许子浩</div>
+                <div class="member">刘墨林</div>
+                <div class="member">刘晨旭</div>
+                <div class="member">付磊</div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>网红城市社会治理新课题研究小组 © 2024</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.point-card, .result-card, .value-card, .division-item');
+            
+            cards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-5px)';
+                    this.style.boxShadow = '0 10px 25px rgba(0, 0, 0, 0.15)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                    this.style.boxShadow = 'none';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
