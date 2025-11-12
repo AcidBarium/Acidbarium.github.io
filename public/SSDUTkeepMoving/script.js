@@ -46,6 +46,15 @@ const imagesPaodao = [
     "./source/20.png",
     "./source/21.png",
     "./source/22.png",
+    "./source/23.png",
+    "./source/24.png",
+    "./source/25.png",
+    "./source/26.png",
+    "./source/27.png",
+    "./source/28.png",
+    "./source/29.png",
+    "./source/30.png",
+    "./source/31.png",
 ];
 
 let loadedImagesPaoDao = new Array(imagesPaodao.length); // 预留空间，确保索引匹配
