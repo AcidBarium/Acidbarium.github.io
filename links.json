@@ -1,0 +1,34 @@
+[
+    {
+        "url": "https://kpmark.icu/",
+        "avatar": "https://kpmark.icu/static/nav_avatar.jpg",
+        "name": "kpmark",
+        "blog": "kpmark的网站",
+        "desc": "人與人總是在不聞不問的日子里慢慢告別",
+        "color": "#18c964"
+    },
+    {
+        "url": "https://saurlax.com/",
+        "avatar": "https://saurlax.com/avatar.jpg",
+        "name": "saurlax",
+        "blog": "Saurlax",
+        "desc": "Web, IoT, ML, Cybersecurity and Graphics developer.",
+        "color": "#FFE7BA"
+    },
+    {
+        "url": "https://yuumi.link",
+        "avatar": "https://cdn.yuumi.link/images/settings/favicon.png",
+        "name": "Yuumi",
+        "blog": "-Yuumi's Blog-",
+        "desc": "続きを鳴らそう——",
+        "color": "#D69B54"
+    },
+    {
+        "url": "https://blog.farewe1ll.top/",
+        "avatar": "https://cn.cravatar.com/avatar/8e405a63aeffe0f7f7de0d072d066984d85552d0f3a1ff6082301d7becec8080?s=512",
+        "name": "Farewe1ll_山竹",
+        "blog": "Farewe1ll's Blog",
+        "desc": "拨雪寻春，烧灯续昼。",
+        "color": "#4AB3B6"
+    }
+]

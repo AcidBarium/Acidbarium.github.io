@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://acidbarium.github.io/</id>
+    <title>-Acidbarium's Eden-</title>
+    <updated>2025-12-31T09:07:44.498Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>Acidbarium</name>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://acidbarium.github.io/"/>
+    <link rel="self" href="https://acidbarium.github.io/atom.xml"/>
+    <logo>https://acidbarium.github.io/img/tou.png</logo>
+    <icon>https://acidbarium.github.io/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2025 © Acidbarium</rights>
+    <entry>
+        <title type="html"><![CDATA[LLVM-Pass发展随笔]]></title>
+        <id>https://acidbarium.github.io/posts/llvmDevelop</id>
+        <link href="https://acidbarium.github.io/posts/llvmDevelop"/>
+        <updated>2025-06-24T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>CoroConditionalWrapper</h1>
+<p>在 LLVM 19 中，<code>CoroConditionalWrapper</code> 被引入作为一个新的 *<em>Module‑level Pass 包装器</em></p>
+<br/><p>访问 <a href="https://acidbarium.github.io/posts/llvmDevelop" target="_blank">https://acidbarium.github.io/posts/llvmDevelop</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-10-13T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EmbedBitcodePass的移植]]></title>
+        <id>https://acidbarium.github.io/posts/llvmEmbedBitcodePass</id>
+        <link href="https://acidbarium.github.io/posts/llvmEmbedBitcodePass"/>
+        <updated>2025-07-02T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>EmbedBitcodePass 是一个 LLVM 中的优化 pass，主要作用是将一个模块的 bitcode 嵌入到另一个模块中，以便在后续的链接或编译过程中，能够携带原始模块的信息。具体来说，它将当前模块的 bitcode 嵌入到一个新的全局变量中，使得这个模块成为一个&quot;自包含&quot;的模块。</p>
+<br/><p>访问 <a href="https://acidbarium.github.io/posts/llvmEmbedBitcodePass" target="_blank">https://acidbarium.github.io/posts/llvmEmbedBitcodePass</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-10-13T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLVM常见Pass]]></title>
+        <id>https://acidbarium.github.io/posts/llvmOriPass</id>
+        <link href="https://acidbarium.github.io/posts/llvmOriPass"/>
+        <updated>2025-06-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p><code>llvm/lib/Transforms/Scalar/</code> 这个目录，它是 LLVM 源码里<strong>最重要</strong>的 Pass 实现目录之一，放的都是**基于标量级优化（Scalar Optimiz</p>
+<br/><p>访问 <a href="https://acidbarium.github.io/posts/llvmOriPass" target="_blank">https://acidbarium.github.io/posts/llvmOriPass</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-10-13T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLVM-Tutor Pass 开发与实践]]></title>
+        <id>https://acidbarium.github.io/posts/llvmTutorPass</id>
+        <link href="https://acidbarium.github.io/posts/llvmTutorPass"/>
+        <updated>2025-06-20T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>📖 今日学习总结：LLVM-Tutor Pass 开发与实践</h2>
+<hr>
+<h2>🎯 背景：</h2>
+<p>LLVM 是一个现代化、模块化、可扩展的编译框架。<br>
+<strong>Pass</strong> 是 LLVM 中用来分</p>
+<br/><p>访问 <a href="https://acidbarium.github.io/posts/llvmTutorPass" target="_blank">https://acidbarium.github.io/posts/llvmTutorPass</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-10-13T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[软件工程是非常有用的一门课]]></title>
+        <id>https://acidbarium.github.io/posts/softwareProjectIsveryUseful</id>
+        <link href="https://acidbarium.github.io/posts/softwareProjectIsveryUseful"/>
+        <updated>2025-10-02T15:51:43.000Z</updated>
+        <content type="html"><![CDATA[<h2>一、CI/CD 的概念</h2>
+<ul>
+<li><strong>CI (Continuous Integration，持续集成)</strong><br>
+指的是开发人员频繁地将代码集成到主分支（如 <code>main</code> 或 <code>develop</code>），</li>
+</ul>
+<br/><p>访问 <a href="https://acidbarium.github.io/posts/softwareProjectIsveryUseful" target="_blank">https://acidbarium.github.io/posts/softwareProjectIsveryUseful</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-10-02T15:51:43.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Boomerang]]></title>
+        <id>https://acidbarium.github.io/posts/Boomerang</id>
+        <link href="https://acidbarium.github.io/posts/Boomerang"/>
+        <updated>2025-04-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-cpp">#include &lt;bits/stdc++.h&gt;
+using namespace std;
+typedef long long ll;
+typedef long double ld</code></pre>
+<br/><p>访问 <a href="https://acidbarium.github.io/posts/Boomerang" target="_blank">https://acidbarium.github.io/posts/Boomerang</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-14T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Git 使用与多线程编程实验]]></title>
+        <id>https://acidbarium.github.io/posts/OpenEulerLineProcess</id>
+        <link href="https://acidbarium.github.io/posts/OpenEulerLineProcess"/>
+        <updated>2025-04-08T16:10:43.000Z</updated>
+        <content type="html"><![CDATA[<h1>Git 使用与多线程编程实验报告</h1>
+<h2>1. GitHub 仓库创建与管理</h2>
+<p>为了实现本地与虚拟机之间的协同开发，本实验首先创建了一个 GitHub 仓库，并将实验程序和记录上传至该仓库，</p>
+<br/><p>访问 <a href="https://acidbarium.github.io/posts/OpenEulerLineProcess" target="_blank">https://acidbarium.github.io/posts/OpenEulerLineProcess</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-08T16:22:43.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[硫酸铜妹妹的开发手册]]></title>
+        <id>https://acidbarium.github.io/posts/acidcopperDev</id>
+        <link href="https://acidbarium.github.io/posts/acidcopperDev"/>
+        <updated>2025-03-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>我尽可能地一个一个来讲吧，谁知道会出什么问题呢。</p>
+<p><img src="https://acidbarium.github.io/img/acidcopperDev1.jpeg" alt="alt text"></p>
+<br/><p>访问 <a href="https://acidbarium.github.io/posts/acidcopperDev" target="_blank">https://acidbarium.github.io/posts/acidcopperDev</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-29T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[硫酸铜妹妹的诞生日记]]></title>
+        <id>https://acidbarium.github.io/posts/acidcopper</id>
+        <link href="https://acidbarium.github.io/posts/acidcopper"/>
+        <updated>2025-03-19T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>人总是渴望温暖，<br>
+渴望拥抱，<br>
+渴望着爱，<br>
+就像扑火。</p>
+</blockquote>
+<p><img src="https://acidbarium.github.io/img/acidcopper1.png" alt="alt text"></p>
+<br/><p>访问 <a href="https://acidbarium.github.io/posts/acidcopper" target="_blank">https://acidbarium.github.io/posts/acidcopper</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-19T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenEuler进程创建与变量独立性实验]]></title>
+        <id>https://acidbarium.github.io/posts/OpenEulerProcessTest</id>
+        <link href="https://acidbarium.github.io/posts/OpenEulerProcessTest"/>
+        <updated>2025-03-14T20:10:43.000Z</updated>
+        <content type="html"><![CDATA[<h1>OpenEuler进程创建与变量独立性实验</h1>
+<h2>获取进程 ID 实验</h2>
+<h3>1. 创建源代码文件</h3>
+<p>打开虚拟机，输入以下指令来编写代码</p>
+<pre><code class="language-bash">vi yi.cpp
+</code></pre>
+<h1></h1>
+<br/><p>访问 <a href="https://acidbarium.github.io/posts/OpenEulerProcessTest" target="_blank">https://acidbarium.github.io/posts/OpenEulerProcessTest</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-14T20:22:43.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[坐地日行八万里，巡天遥看一千河]]></title>
+        <id>https://acidbarium.github.io/posts/keepMoving</id>
+        <link href="https://acidbarium.github.io/posts/keepMoving"/>
+        <updated>2025-03-14T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p><strong>大黑山的妖风</strong>肆虐着这片土地，昏暗的灯光下，一排排的<strong>窝工战士</strong>在操场上匍匐前进着，他们手中的手机发出<strong>微弱的灯光</strong>，在操场上汇聚成一条<strong>流动的海洋</strong>。。。</p>
+</blockquote>
+<blockquote>
+<p>“下周就要<strong>收keep截图</strong>了，今天也要打卡啊———”</p>
+</blockquote>
+<p><strong>“好想，好想，好想坐地日行八万里，巡天遥看一千河啊————”</strong></p>
+<p><img src="https://acidbarium.github.io/img/SSDUTzhanshi.jpg" alt="alt text"></p>
+<br/><p>访问 <a href="https://acidbarium.github.io/posts/keepMoving" target="_blank">https://acidbarium.github.io/posts/keepMoving</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-14T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在 VMware 上安装 openEuler 的完整指南 ]]></title>
+        <id>https://acidbarium.github.io/posts/azopenEuler</id>
+        <link href="https://acidbarium.github.io/posts/azopenEuler"/>
+        <updated>2025-03-08T22:42:43.000Z</updated>
+        <content type="html"><![CDATA[<p>本文记录了在 VMware 虚拟机中安装 openEuler 的详细步骤，方便大家快速上手。</p>
+<br/><p>访问 <a href="https://acidbarium.github.io/posts/azopenEuler" target="_blank">https://acidbarium.github.io/posts/azopenEuler</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-08T22:42:43.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[哈希思想与字符串窥见]]></title>
+        <id>https://acidbarium.github.io/posts/hash</id>
+        <link href="https://acidbarium.github.io/posts/hash"/>
+        <updated>2024-05-10T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>前两天听了一个学长讲字符串，<strong>KMP</strong>，<strong>Tire</strong>，<strong>DFA</strong>，<strong>AC自动机</strong>，<strong>马拉车</strong>...叽里呱啦的我这个小蒟蒻也听不明白。虽然但是学长在最后清了清嗓子，敲了敲黑板，拿出了镇场子的家伙——hash算法。听完之后，满座惊呼，醍醐灌顶，恍然大悟。我也这般激动，便趁着这股劲写下这篇窥见，随便纪念这个<strong>赔了我五块钱的学长</strong>。</p>
+<br/><p>访问 <a href="https://acidbarium.github.io/posts/hash" target="_blank">https://acidbarium.github.io/posts/hash</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-05-10T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[L2-002 链表去重]]></title>
+        <id>https://acidbarium.github.io/posts/LinkOutDouble</id>
+        <link href="https://acidbarium.github.io/posts/LinkOutDouble"/>
+        <updated>2024-04-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>题目描述</h2>
+<p>给定一个带整数键值的链表 <strong>L</strong>，你需要把其中绝对值重复的键值结点删掉。即对每个键值 <strong>K</strong>，只有第一个绝对值等于 <strong>K</strong> 的结点被保留。同时，所有被删除的结点须被保存在另一个链表上。例如给定 <strong>L</strong> 为 21→-15→-15→-7→15，你需要输出去重后的链表 21→-15→-7，还有被删除的链表 -15→15。</p>
+<br/><p>访问 <a href="https://acidbarium.github.io/posts/LinkOutDouble" target="_blank">https://acidbarium.github.io/posts/LinkOutDouble</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-04-11T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[天梯赛-练习集 -L2-001 紧急救援， 一个不是很正常的过题方法]]></title>
+        <id>https://acidbarium.github.io/posts/sosRightNow</id>
+        <link href="https://acidbarium.github.io/posts/sosRightNow"/>
+        <updated>2024-04-10T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>题目描述</h2>
+<p>作为一个城市的应急救援队伍的负责人，你有一张特殊的全国地图。在地图上显示有多个分散的城市和一些连接城市的快速道路。每个城市的救援队数量和每一条连接两个城市的快速道路长度都标在地图上。当其他城市有紧急求助电话给你的时候，你的任务是带领你的救援队尽快赶往事发地，同时，一路上召集尽可能多的救援队。</p>
+<br/><p>访问 <a href="https://acidbarium.github.io/posts/sosRightNow" target="_blank">https://acidbarium.github.io/posts/sosRightNow</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-04-10T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[试用期]]></title>
+        <id>https://acidbarium.github.io/posts/hello-valaxy</id>
+        <link href="https://acidbarium.github.io/posts/hello-valaxy"/>
+        <updated>2021-02-12T21:42:43.000Z</updated>
+        <content type="html"><![CDATA[<h2>如你所见</h2>
+<p>本网站刚施工完，正在试用期。有问题请联系：acidbarium@163.com。</p>
+<!-- 经验加三 --><br/><p>访问 <a href="https://acidbarium.github.io/posts/hello-valaxy" target="_blank">https://acidbarium.github.io/posts/hello-valaxy</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2021-03-02T21:42:43.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[广告位招租]]></title>
+        <id>https://acidbarium.github.io/posts/adVguangao</id>
+        <link href="https://acidbarium.github.io/posts/adVguangao"/>
+        <updated>1900-02-28T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>广告位招租</h1>
+<p>联系方式：acidbarium@163.com</p>
+<br/><p>访问 <a href="https://acidbarium.github.io/posts/adVguangao" target="_blank">https://acidbarium.github.io/posts/adVguangao</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Acidbarium</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>1900-02-28T00:00:00.000Z</published>
+    </entry>
+</feed>
