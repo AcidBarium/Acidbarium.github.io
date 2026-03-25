@@ -20,3 +20,6 @@ Check out the [Valaxy | GitHub](https://github.com/YunYouJun/valaxy) for more de
 希望能用科技来解决一些生活中的实际问题。
 
 我爱这个世界啊！！！
+
+
+为什么网站死了
