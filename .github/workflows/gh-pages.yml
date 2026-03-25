@@ -36,6 +36,9 @@ jobs:
       - name: 📦 Install Dependencies
         run: npm i
 
+      - name: Install @unocss/reset
+        run: npm install -D @unocss/reset
+
       - name: 🌌 Build Valaxy Blog
         run: npm run build:ssg
 
